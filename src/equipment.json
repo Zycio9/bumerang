@@ -1,0 +1,29 @@
+{
+    "equipment": [{
+            "id": 0,
+            "name": "Wiertarka",
+            "decription": "Takie elektryczne do robienia otworów i robi hałas",
+            "category": "Budowlany",
+            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg",
+            "price": "229",
+            "parapeters": {
+                "weightt": 2,
+                "power": "500W",
+                "rotates": 2200
+            }
+        },
+        {
+            "id": 0,
+            "name": "Inna wiertarka",
+            "decription": "Też elektryczne i też robi hałas",
+            "category": "Budowlany",
+            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
+            "price": "319",
+            "parapeters": {
+                "weightt": 2.5,
+                "power": "600W",
+                "rotates": 2800
+            }
+        }
+    ]
+}

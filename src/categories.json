@@ -1,0 +1,52 @@
+{
+    "categories": [{
+            "id": 0,
+            "title": "Budowlane",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel eius beatae, accusantium a harum amet doloribus consequatur ipsa voluptates perspiciatis totam maxime quos repellat nam adipisci modi dolor fugiat quisquam! Maiores odio modi cupiditate dolor quod pariatur id iusto sapiente voluptatum, consequuntur vel maxime fugiat qui quam reprehenderit et optio soluta ea dolorem quidem officia ut illo.",
+            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg",
+            "url": "/oferta/budowlane",
+            "css": {
+                "backgroundPosition": "left 30%",
+                "backgroundSize": "100%"
+            }
+        },
+        {
+            "id": 1,
+            "title": "Ogrodnicze",
+            "description": "Obcaecati rem et eius esse, nesciunt cum ducimus odio! Totam, repellat corrupti eum provident voluptate voluptatem necessitatibus excepturi omnis numquam quas officiis? Iste labore placeat reiciendis, ea optio perspiciatis eveniet excepturi maxime vel dignissimos sapiente ipsam laborum possimus, molestiae qui aut accusamus deleniti?",
+            "category": "Budowlany",
+            "image": "assets/trawnik.jpg",
+            "url": "/oferta/Ogrodnicze",
+            "css": {
+                "backgroundPosition": "right 5%",
+                "backgroundSize": "cover"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Przyczepy",
+            "description": "Iste labore placeat reiciendis, ea optio perspiciatis eveniet excepturi maxime vel dignissimos sapiente ipsam laborum possimus, molestiae qui aut accusamus deleniti? Obcaecati rem et eius esse, nesciunt cum ducimus odio! Totam, repellat corrupti eum provident voluptate voluptatem necessitatibus excepturi omnis numquam quas officiis? ",
+            "category": "Budowlany",
+            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
+            "url": "/oferta/przyczepy",
+            "css": {
+                "backgroundSize": "cover"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Bagażniki rowerowe",
+            "description": "Iste labore placeat reiciendis, ea optio perspiciatis eveniet excepturi maxime vel dignissimos sapiente ipsam laborum possimus, molestiae qui aut accusamus deleniti? Obcaecati rem et eius esse, nesciunt cum ducimus odio!",
+            "category": "Bagażniki rowerowe",
+            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
+            "url": "/oferta/bagazniki",
+            "css": {
+                "backgroundSize": "cover"
+            }
+        }
+    ],
+    "custom-CSS": {
+        "backgroundAttachment": "fixed",
+        "backgroundSize": "cover"
+    }
+}
