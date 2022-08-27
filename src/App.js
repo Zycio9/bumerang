@@ -22,6 +22,9 @@ import Contact from "./Pages/ContactPage"
 import Banner from "./Components/Banner"
 
 
+import CategoryTemplate from "./Template/CategoryTemplate";
+import ArticleTemplate from "./Template/ArticleTemplate";
+
 function App() {
   const [isStartPath, setIsStartPath] = useState(true);
   // const useCurrentPath = () => {
@@ -53,11 +56,9 @@ function App() {
   useEffect(() => {
     if (path.pathname === "/") {
       setIsStartPath(true);
-      console.log(true, path);
 
     } else {
       setIsStartPath(false);
-      console.log(false, path);
     }
     // document.title = `Kliknięto ${count} razy`;
   }, [path]);
@@ -77,10 +78,8 @@ function App() {
           <Route path="kontakt" element={<Contact />} />
 
           <Route path="oferta" element={<Offer />} />
-          <Route path="oferta/ogrodowe" element={<Ogrodowe />} />
-          <Route path="oferta/przyczepy" element={<Przyczepy />} />
-          <Route path="oferta/budowlane" element={<Budowlane />} />
-
+          <Route path="oferta/:categoryId" element={<CategoryTemplate />} />
+          <Route path="oferta/:categoryId/:articleId" element={<ArticleTemplate />} />
         </Routes>
       </Container>
       <Footer />
