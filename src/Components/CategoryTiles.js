@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid } from '@mui/material';
 import data from '../data.json'
-import Tile from './Tile'
+import CategoryTile from './CategoryTile'
 import useWindowPosition from '../hooks/useWindwPosition';
 
 
@@ -13,7 +13,7 @@ const CategoryTiles = () => {
             {data.categories.map((category) => (
 
                 <Grid item key={category.id} marginTop={7} >
-                    <Tile
+                    <CategoryTile
                         checked={checked}
                         category={category}
                         right={category.id % 2 > 0 ? true : false}

@@ -1,16 +1,13 @@
 import React from 'react'
-import Typography from '@mui/material/Typography'
-import Card from '@mui/material/Card'
-import CardMedia from '@mui/material/CardMedia'
-import CardContent from '@mui/material/CardContent'
-import Button from '@mui/material/Button'
-import Collapse from '@mui/material/Collapse'
+
+import { Typography, Card, CardMedia, CardContent, Button, Collapse } from '@mui/material'
 import { NavLink } from 'react-router-dom';
+
 import { styled, useTheme } from '@mui/material/styles';
 
 
 
-const Tile = ({ checked, right, category }) => {
+const CategoryTile = ({ checked, right, category }) => {
 
 
     const StyledCard = styled(Card)(({ theme }) => ({
@@ -64,44 +61,46 @@ const Tile = ({ checked, right, category }) => {
                 background: `linear-gradient(transparent, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8))`,
             }
         }}>
-            <StyledCard
-                elevation={2}
-                style={{
 
-                    height: "100%",
-                    width: "100%",
-                    backgroundSize: "cover",
-                    backgroundRepeat: "no-repeat",
-                    // transition: "all .5s",
-                    backgroundImage: `url(${category.image})`,
-                }}
-            >
-                <StyledCardMedia style={{
-                    ...category.css,
-                }}
-                    media="picture"
-                    alt="Contemplative Reptile"
-                    image={category.image}
-                    title="Contemplative Reptile" />
-                {/* <img src={category.image} alt=""  /> */}
-                <CardContent
+            <NavLink to={category.url} >
+                <StyledCard
+                    elevation={2}
                     style={{
-                        marginTop: '20%',
-                        marginLeft: right ? 'auto' : 0,
-                        position: "relative",
-                        background: 'transparent'
-                    }}>
-                    <Typography
-                        variant="h3"
-                        color="primary">
-                        {category.title}
-                    </Typography>
-                    <Typography
-                        variant="body1"
-                        color="textSecondary">
-                        {category.description}
-                    </Typography>
-                    <NavLink to={category.url} >
+
+                        height: "100%",
+                        width: "100%",
+                        backgroundSize: "cover",
+                        backgroundRepeat: "no-repeat",
+                        // transition: "all .5s",
+                        backgroundImage: `url(${category.image})`,
+                    }}
+                >
+                    <StyledCardMedia style={{
+                        ...category.css,
+                    }}
+                        media="picture"
+                        alt="Contemplative Reptile"
+                        image={category.image}
+                        title="Contemplative Reptile" />
+                    {/* <img src={category.image} alt=""  /> */}
+                    <CardContent
+                        style={{
+                            marginTop: '20%',
+                            marginLeft: right ? 'auto' : 0,
+                            position: "relative",
+                            background: 'transparent',
+                            cursor: "",
+                        }}>
+                        <Typography
+                            variant="h3"
+                            color="primary">
+                            {category.title}
+                        </Typography>
+                        <Typography
+                            variant="body1"
+                            color="textSecondary">
+                            {category.description}
+                        </Typography>
                         <Button
                             variant="text"
                             style={{
@@ -109,11 +108,11 @@ const Tile = ({ checked, right, category }) => {
                             }}>
                             Zobacz więcej
                         </Button>
-                    </NavLink>
-                </CardContent>
-            </StyledCard>
-        </Collapse >
+                    </CardContent>
+                </StyledCard>
+            </NavLink>
+        </Collapse>
     )
 }
 
-export default Tile
+export default CategoryTile
