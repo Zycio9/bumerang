@@ -1,65 +1,57 @@
-import * as React from 'react';
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
-import { AppBar, Box, Grid, Divider, Drawer, Typography, IconButton, List, ListItem, ListItemText, ListItemButton, Toolbar } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
-
+import { AppBar, Box, Grid, Divider, Drawer, Typography, IconButton, List, ListItem, ListItemText, ListItemButton, Toolbar, Collapse } from '@mui/material';
+import { Menu, ExpandLess, ExpandMore } from '@mui/icons-material';
 import { styled, useTheme } from '@mui/material/styles';
 
-import { NavLink } from 'react-router-dom';
+import data from '../data.json'
 import Logo from '../images/bumerang_logo_white.png'
 
 
 
 
 
-const drawerWidth = 240;
+const drawerWidth = 350;
 const headerHeight = 64
 const navItems = [
     {
         name: 'Start',
         url: "/",
-        id: 1
+        id: 'a'
     },
     {
         name: 'O nas',
         url: "onas",
-        id: 2
+        id: 'b'
     },
     {
         name: 'Oferta',
         url: "oferta",
-        id: 3,
-        subItems: [
-            {
-                name: 'Budowlane',
-                url: "oferta/budowlane",
-                id: 4,
-                img: "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg"
-            },
-            {
-                name: 'Ogrodowe',
-                url: "oferta/ogrodowe",
-                id: 5,
-                img: "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg"
-            },
-            {
-                name: 'Przyczepy',
-                url: "oferta/przyczepy",
-                id: 6,
-                img: "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg"
-            },
-        ]
+        id: 'c',
+        subItems: true,
     },
     {
         name: 'Kontakt',
         url: "kontakt",
-        id: 7,
+        id: 'd',
     }]
 
+const StyledLisItem = styled(ListItem)(({ theme }) => ({
+    '&, a': {
+        transition: 'all 0.2s ease-out'
+    },
+    '&, a.active_link': {
 
+        color: theme.palette.primary.main,
+    },
+    '&:hover, &:hover a': {
+        color: theme.palette.primary.main,
+    }
+}));
 
 const StyledMegaMenu = styled('div')(({ theme }) => ({
-    'a&:hover': {
+    '& a:hover': {
         backgroundColor: theme.palette.primary.main,
     }
     // "overflow": "hidden",
@@ -71,32 +63,92 @@ const StyledMegaMenu = styled('div')(({ theme }) => ({
     // },
 
 }));
-
+console.log(data.categories)
 
 function Header(props) {
     const { window } = props;
-    const [mobileOpen, setMobileOpen] = React.useState(false);
+    const [mobileOpen, setMobileOpen] = useState(false);
+    const [open, setOpen] = useState(false);
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
     };
 
+
+    const handleClick = () => {
+        setOpen(!open);
+    };
+
+    const NavLinkStyles = { padding: "5px", paddingLeft: '15px', }
+    // menu mobile
     const drawer = (
-        <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-            <Typography variant="h6" sx={{ my: 2 }}>
-                MUI
-            </Typography>
+        <Box sx={{ textAlign: 'center' }}>
+            <NavLink to='/' >
+                <img className="logo" src={Logo} alt="Strona startowa" />
+            </NavLink >
             <Divider />
-            <List>
-                {navItems.map((item) => (
-                    <ListItem key={item.id} disablePadding>
-                        <ListItemButton sx={{ textAlign: 'center' }}>
-                            <ListItemText primary={item.names} />
-                        </ListItemButton>
-                    </ListItem>
-                ))}
+            <List style={{ fontSize: '24px' }}>
+                {
+                    navItems.map((item) => (
+                        item.subItems ? (
+                            <>
+                                <StyledLisItem key={item.id} onClick={handleClick}>
+                                    <NavLink
+                                        to={item.url}
+                                        style={{
+                                            display: 'flex',
+                                            alignContent: 'space-between',
+                                            width: '100%', ...NavLinkStyles
+                                        }}
+                                        className={({ isActive }) =>
+                                            isActive ? "active_link" : null
+                                        }
+                                    >
+                                        {item.name}
+                                        {open ? <ExpandLess style={{ marginLeft: "auto", fontSize: '40px' }} /> : <ExpandMore style={{ marginLeft: "auto", fontSize: '40px' }} />}
+                                    </NavLink>
+                                </StyledLisItem>
+                                <Collapse in={open} timeout="auto" unmountOnExit>
+                                    <List>
+                                        {
+                                            data.categories.map((category) => (
+                                                <StyledLisItem key={category.id} style={{ paddingLeft: "45px" }}>
+                                                    <NavLink
+                                                        to={category.url}
+                                                        onClick={handleDrawerToggle}
+                                                        style={NavLinkStyles}
+                                                        className={({ isActive }) =>
+                                                            isActive ? "active_link" : null
+                                                        }
+                                                    >
+                                                        {category.title}
+                                                    </NavLink>
+                                                </StyledLisItem>
+                                            ))
+                                        }
+                                    </List>
+                                </Collapse>
+                            </>
+
+                        ) : (
+
+                            <StyledLisItem key={item.id}>
+                                <NavLink
+                                    to={item.url}
+                                    onClick={handleDrawerToggle}
+                                    style={NavLinkStyles}
+                                    className={({ isActive }) =>
+                                        isActive ? "active_link" : null
+                                    }
+                                >
+                                    {item.name}
+                                </NavLink>
+                            </StyledLisItem>
+                        )
+                    ))
+                }
             </List>
-        </Box>
+        </Box >
     );
 
     const container = window !== undefined ? () => window().document.body : undefined;
@@ -112,7 +164,7 @@ function Header(props) {
                         onClick={handleDrawerToggle}
                         sx={{ mr: 2, display: { sm: 'none' } }}
                     >
-                        <MenuIcon />
+                        <Menu />
                     </IconButton>
                     <Typography
                         variant="h6"
@@ -137,10 +189,10 @@ function Header(props) {
                                             <StyledMegaMenu className="animated fadeIn mega-menu" style={{ top: headerHeight }}>
                                                 <div className="mega-menu-wrap">
                                                     {
-                                                        item.subItems.map((subItem) => (
-                                                            <div key={subItem.id}>
-                                                                <NavLink to={subItem.url} className='' style={{ width: '100%', }}>
-                                                                    {subItem.name}
+                                                        data.categories.map((category) => (
+                                                            <div key={category.id}>
+                                                                <NavLink to={category.url} className='' style={{ width: '100%', }}>
+                                                                    {category.title}
                                                                 </NavLink >
                                                             </div>
                                                         ))
