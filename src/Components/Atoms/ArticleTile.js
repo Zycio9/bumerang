@@ -1,7 +1,11 @@
 import React from 'react'
 import { Typography, Card, CardMedia, CardContent, Button, Collapse } from '@mui/material'
 import { NavLink, useParams } from 'react-router-dom';
-// * Prosty pojedynczy kafelek artykułu, z którego przechodzimy na jego stronę z dokładniejszymi informacjami 
+
+// * * * * * * * * * * * * *
+// * Prosty pojedynczy kafelek artykułu, z którego przechodzimy na jego stronę z dokładniejszymi informacjami
+// * * * * * * * * * * * * *
+
 const ArticleTile = ({ article }) => {
     const { categoryId } = useParams();
     console.log(categoryId, article);
@@ -18,13 +22,15 @@ const ArticleTile = ({ article }) => {
                 // backgroundImage: `url(${article.image})`,
             }}
         >
-            <NavLink to={`${article.id}`} >
+            <NavLink to={`${article.id}`}>
                 <CardMedia style={{
                     // ...article.css,
-                    height: "300px"
+                    height: "300px",
+                    backgroundSize: 'contain',
+                    backgroundColor: 'white'
                 }}
                     // media="picture"
-                    image={article.image}
+                    image={article.mainImage}
 
                     alt={article.name}
                     title={article.name} />
@@ -40,19 +46,24 @@ const ArticleTile = ({ article }) => {
                     color="primary">
                     {article.name}
                 </Typography>
-                <Typography
+                {/* <Typography
                     variant="body1"
                     color="textSecondary">
                     {article.description}
-                </Typography>
-                {/* <NavLink to={article.url} > */}
-                <Button
-                    variant="text">
-                    Zobacz więcej
-                </Button>
-                {/* </NavLink> */}
+                </Typography> */}
+                <NavLink to={`${article.id}`}
+                >
+                    <Button
+                        style={{
+                            marginTop: '2rem',
+                            marginLeft: 'auto'
+                        }}
+                        variant="contained">
+                        Zobacz więcej
+                    </Button>
+                </NavLink>
             </CardContent>
-        </Card>
+        </Card >
     )
 }
 
