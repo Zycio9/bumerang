@@ -52,7 +52,7 @@ const StyledLisItem = styled(ListItem)(({ theme }) => ({
 
 const StyledMegaMenu = styled('div')(({ theme }) => ({
     '& a:hover': {
-        backgroundColor: theme.palette.primary.main,
+        color: theme.palette.primary.main,
     }
     // "overflow": "hidden",
     // ".MuiCardContent-root": {
@@ -183,15 +183,22 @@ function Header(props) {
                                 navItems.map((item) => (
                                     item.subItems ? (
                                         <li key={item.id} className="mega-drop-down">
-                                            <NavLink to={item.url}>
+                                            <NavLink to={item.url}
+                                                className={({ isActive }) =>
+                                                    isActive ? "active_link" : null
+                                                }>
                                                 {item.name}
                                             </NavLink>
                                             <StyledMegaMenu className="animated fadeIn mega-menu" style={{ top: headerHeight }}>
                                                 <div className="mega-menu-wrap">
                                                     {
                                                         data.categories.map((category) => (
-                                                            <div key={category.id}>
-                                                                <NavLink to={category.url} className='' style={{ width: '100%', }}>
+                                                            <div key={category.id}
+                                                                style={{ display: 'block' }}>
+                                                                <NavLink to={category.url} style={{ width: '100%', }}
+                                                                    className={({ isActive }) =>
+                                                                        isActive ? "active_link" : null
+                                                                    }>
                                                                     {category.title}
                                                                 </NavLink >
                                                             </div>
@@ -204,7 +211,10 @@ function Header(props) {
                                     ) : (
 
                                         <ListItem key={item.id} disablePadding style={{ display: 'inline' }}>
-                                            <NavLink to={item.url}>
+                                            <NavLink to={item.url}
+                                                className={({ isActive }) =>
+                                                    isActive ? "active_link" : null
+                                                }>
                                                 {item.name}
                                             </NavLink >
                                         </ListItem>
