@@ -1,0 +1,150 @@
+{
+    "categories": [{
+            "id": 0,
+            "title": "Budowlane",
+            "shortDescription": "!!!!!!!!!!!!",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel eius beatae, accusantium a harum amet doloribus consequatur ipsa voluptates perspiciatis totam maxime quos repellat nam adipisci modi dolor fugiat quisquam! Maiores odio modi cupiditate dolor quod pariatur id iusto sapiente voluptatum, consequuntur vel maxime fugiat qui quam reprehenderit et optio soluta ea dolorem quidem officia ut illo.",
+            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg",
+            "url": "/oferta/budowlane",
+            "css": {
+                "backgroundPosition": "left 30%",
+                "backgroundSize": "100%"
+            }
+        },
+        {
+            "id": 1,
+            "title": "Ogrodnicze",
+            "description": "Obcaecati rem et eius esse, nesciunt cum ducimus odio! Totam, repellat corrupti eum provident voluptate voluptatem necessitatibus excepturi omnis numquam quas officiis? Iste labore placeat reiciendis, ea optio perspiciatis eveniet excepturi maxime vel dignissimos sapiente ipsam laborum possimus, molestiae qui aut accusamus deleniti?",
+            "category": "Budowlany",
+            "image": "assets/trawnik.jpg",
+            "url": "/oferta/Ogrodnicze",
+            "css": {
+                "backgroundPosition": "right 5%",
+                "backgroundSize": "cover"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Przyczepy",
+            "description": "Iste labore placeat reiciendis, ea optio perspiciatis eveniet excepturi maxime vel dignissimos sapiente ipsam laborum possimus, molestiae qui aut accusamus deleniti? Obcaecati rem et eius esse, nesciunt cum ducimus odio! Totam, repellat corrupti eum provident voluptate voluptatem necessitatibus excepturi omnis numquam quas officiis? ",
+            "category": "Budowlany",
+            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
+            "url": "/oferta/przyczepy",
+            "css": {
+                "backgroundSize": "cover"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Bagażniki rowerowe",
+            "description": "Iste labore placeat reiciendis, ea optio perspiciatis eveniet excepturi maxime vel dignissimos sapiente ipsam laborum possimus, molestiae qui aut accusamus deleniti? Obcaecati rem et eius esse, nesciunt cum ducimus odio!",
+            "category": "Bagażniki rowerowe",
+            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
+            "url": "/oferta/bagazniki",
+            "css": {
+                "backgroundSize": "cover"
+            }
+        }
+    ],
+    "custom-CSS": {
+        "backgroundAttachment": "fixed",
+        "backgroundSize": "cover"
+    },
+    "equipment": [{
+            "id": "wiertarka",
+            "name": "Wiertarka",
+            "description": "Takie elektryczne do robienia otworów i robi hałas",
+            "category": "budowlane",
+            "mainImage": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg",
+            "price": "229",
+            "parameters": {
+                "weight": 2,
+                "power": "500W",
+                "rotates": 2200
+            }
+        },
+        {
+            "id": "inna-wiertarka",
+            "name": "Inna wiertarka",
+            "description": "Też elektryczne i też robi hałas",
+            "category": "budowlane",
+            "mainImage": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
+            "price": "319",
+            "parameters": {
+                "weight": 2.5,
+                "power": "600W",
+                "rotates": 2800
+            }
+        },
+        {
+            "id": "udar",
+            "name": "Udar",
+            "description": "Bum bum i sąsiedzi cię nienawidzą",
+            "category": "Budowlane",
+            "mainImage": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
+            "price": "319",
+            "parameters": {
+                "weight": 2.5,
+                "power": "600W",
+                "rotates": 2800
+            }
+        },
+        {
+            "id": "lekka-wiertarka",
+            "name": "Lekka wiertarka",
+            "description": "Jak żeś cienias albo kobieta to użyj lekkiego sprzętu",
+            "category": "budowlane",
+            "mainImage": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
+            "price": "319",
+            "parameters": {
+                "weight": 2.5,
+                "power": "600W",
+                "rotates": 2800
+            }
+        },
+        {
+            "id": "BOSCH-GBH-180",
+            "name": "Młotowiertarka BOSCH GBH 180-LI 0615990M33",
+            "description": "Akumulatorowa młotowiertarka GBH 180-LI Bosch 0615990M33 to funkcjonalne elektronarzędzie przeznaczone do wiercenia z udarem, wiercenia bez udaru i podkuwania. Posiada wytrzymały silnik bezszczotkowy, który w połączeniu z akumulatorem litowo-jonowym 18V gwarantuje wysoką sprawność pod obciążeniem i długi czas pracy. Młotowiertarkę GBH 180-Li wyposażono w oświetlenie LED, płynną regulację prędkości w spuście włącznika, rękojeść boczną, ogranicznik wiercenia, a także opcję przestawiania pozycji dłuta. Dzięki ergonomicznej konstrukcji użytkowanie narzędzia jest komfortowe. Wygodę obsługi zwiększa także praca bezprzewodowa, która daje pełną swobodę działania. Model GBH 180-LI jest dostarczany w pełnej kompletacji z akumulatorami, ładowarką i walizką z tworzywa sztucznego, a także z 11-częściowym zestawem osprzętu SDS Plus.",
+            "category": "budowlane",
+            "mainImage": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-lewy-bok.jpg",
+            "images": [{
+                    "original": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-lewy-bok.jpg",
+                    "thumbnail": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-lewy-bok.jpg"
+                },
+                {
+                    "original": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-akcesoria.jpg",
+                    "thumbnail": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-akcesoria.jpg"
+                },
+                {
+                    "original": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-opakowanie.jpg",
+                    "thumbnail": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-opakowanie.jpg"
+                }
+
+            ],
+            "price": "319",
+            "parameters": {
+                "Rodzaj produktu": "Młotowiertarka",
+                "Przeznaczenie": "Do użytku profesjonalnego",
+                "Waga [kg]": 2.3,
+                "Zasilanie": "Akumulatorowe",
+                "Silnik": "Bezszczotkowy",
+                "Napięcie akumulatora [V]": 18,
+                "Liczba akumulatorów": 2,
+                "Pojemność akumulatora [Ah]": "4",
+                "Energia udaru [J]": "2",
+                "Liczba udarów": 5100,
+                "Prędkość obrotowa bez obciążenia [obr/min]": 1800,
+                "Regulacja prędkości": "Tak",
+                "Dwa kierunki obrotów": "Tak",
+                "Blokada pracy ciągłej": "Nie",
+                "Ograniczenie głębokości": "Tak",
+                "Typ uchwytu": "SDS+",
+                "Wyposażenie": "Rękojeść dodatkowa, Sukno maszynowe, Szybka ładowarka GAL 18V-40 Professional, Walizka, Zestaw akcesoriów"
+            },
+            "files": [
+                "/assets/pdf/instrukcje/instrukcja-obslugi-bosch_gbh_180li.pdf"
+            ]
+        }
+    ]
+}
