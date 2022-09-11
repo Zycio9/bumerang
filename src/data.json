@@ -17,7 +17,7 @@
             "description": "Obcaecati rem et eius esse, nesciunt cum ducimus odio! Totam, repellat corrupti eum provident voluptate voluptatem necessitatibus excepturi omnis numquam quas officiis? Iste labore placeat reiciendis, ea optio perspiciatis eveniet excepturi maxime vel dignissimos sapiente ipsam laborum possimus, molestiae qui aut accusamus deleniti?",
             "category": "Budowlany",
             "image": "assets/trawnik.jpg",
-            "url": "/oferta/Ogrodnicze",
+            "url": "/oferta/ogrodnicze",
             "css": {
                 "backgroundPosition": "right 5%",
                 "backgroundSize": "cover"
@@ -124,7 +124,7 @@
             "id": "wertykulator_husqvarna_S500PRO",
             "name": "Wertykulator HUSQVARNA S500 PRO",
             "description": "Model S500 Pro to solidny wertykulator, przeznaczony do intensywnej, profesjonalnej pracy. Niewielki rozmiar i mocny silnik sprawiają, że model S 500 Pro można używać zarówno na dużych przestrzeniach jak i małych trawnikach przydomowych. Niezastąpiony dla np. firm zajmujących się profesjonalną pielegnacją trawników. Cena obejmuje urządzenia tnące - noże bijakowe.",
-            "category": "budowlane",
+            "category": "ogrodnicze",
             "mainImage": "/assets/budowlane/wertykulator_husqvarna_S500PRO/wertykulator_husqvarna_S500PRO.webp",
             "images": [{
                     "original": "/assets/budowlane/wertykulator_husqvarna_S500PRO/wertykulator_husqvarna_S500PRO.webp",
