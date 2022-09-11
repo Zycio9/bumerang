@@ -51,100 +51,117 @@
         "backgroundSize": "cover"
     },
     "equipment": [{
-            "id": "wiertarka",
-            "name": "Wiertarka",
-            "description": "Takie elektryczne do robienia otworów i robi hałas",
+            "id": "zageszczarka-Cedrus-ZG01",
+            "name": "Zagęszczarka spalinowa Cedrus ZG01",
+            "description": "Najwyższej klasy komponenty oraz mocny 6,5 konny silnik Loncin sprawiają, że nasza zagęszczarka spalinowa spełni oczekiwania każdego użytkownika. Bogate wyposażenie seryjne oraz ergonomiczna budowa w znaczny sposób wpływają na komfort pracy operatora.",
             "category": "budowlane",
-            "mainImage": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg",
-            "price": "229",
-            "parameters": {
-                "weight": 2,
-                "power": "500W",
-                "rotates": 2200
-            }
-        },
-        {
-            "id": "inna-wiertarka",
-            "name": "Inna wiertarka",
-            "description": "Też elektryczne i też robi hałas",
-            "category": "budowlane",
-            "mainImage": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
-            "price": "319",
-            "parameters": {
-                "weight": 2.5,
-                "power": "600W",
-                "rotates": 2800
-            }
-        },
-        {
-            "id": "udar",
-            "name": "Udar",
-            "description": "Bum bum i sąsiedzi cię nienawidzą",
-            "category": "Budowlane",
-            "mainImage": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
-            "price": "319",
-            "parameters": {
-                "weight": 2.5,
-                "power": "600W",
-                "rotates": 2800
-            }
-        },
-        {
-            "id": "lekka-wiertarka",
-            "name": "Lekka wiertarka",
-            "description": "Jak żeś cienias albo kobieta to użyj lekkiego sprzętu",
-            "category": "budowlane",
-            "mainImage": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
-            "price": "319",
-            "parameters": {
-                "weight": 2.5,
-                "power": "600W",
-                "rotates": 2800
-            }
-        },
-        {
-            "id": "BOSCH-GBH-180",
-            "name": "Młotowiertarka BOSCH GBH 180-LI 0615990M33",
-            "description": "Akumulatorowa młotowiertarka GBH 180-LI Bosch 0615990M33 to funkcjonalne elektronarzędzie przeznaczone do wiercenia z udarem, wiercenia bez udaru i podkuwania. Posiada wytrzymały silnik bezszczotkowy, który w połączeniu z akumulatorem litowo-jonowym 18V gwarantuje wysoką sprawność pod obciążeniem i długi czas pracy. Młotowiertarkę GBH 180-Li wyposażono w oświetlenie LED, płynną regulację prędkości w spuście włącznika, rękojeść boczną, ogranicznik wiercenia, a także opcję przestawiania pozycji dłuta. Dzięki ergonomicznej konstrukcji użytkowanie narzędzia jest komfortowe. Wygodę obsługi zwiększa także praca bezprzewodowa, która daje pełną swobodę działania. Model GBH 180-LI jest dostarczany w pełnej kompletacji z akumulatorami, ładowarką i walizką z tworzywa sztucznego, a także z 11-częściowym zestawem osprzętu SDS Plus.",
-            "category": "budowlane",
-            "mainImage": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-lewy-bok.jpg",
+            "mainImage": "/assets/budowlane/Zageszczarka_CEDRUS/CEDRUS-ZG01-ZAGESZCZARKA-SPALINOWA-UBIJARKA-96-KG-6-5-KM_R.jpg",
             "images": [{
-                    "original": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-lewy-bok.jpg",
-                    "thumbnail": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-lewy-bok.jpg"
+                    "original": "/assets/budowlane/Zageszczarka_CEDRUS/CEDRUS-ZG01-ZAGESZCZARKA-SPALINOWA-UBIJARKA-96-KG-6-5-KM_R.jpg",
+                    "thumbnail": "/assets/budowlane/Zageszczarka_CEDRUS/CEDRUS-ZG01-ZAGESZCZARKA-SPALINOWA-UBIJARKA-96-KG-6-5-KM_R.jpg"
                 },
                 {
-                    "original": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-akcesoria.jpg",
-                    "thumbnail": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-akcesoria.jpg"
-                },
-                {
-                    "original": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-opakowanie.jpg",
-                    "thumbnail": "/assets/Sprzet/Bosh_GBH-180/BOSCH-GBH-180-LI-opakowanie.jpg"
+                    "original": "/assets/budowlane/Zageszczarka_CEDRUS/CEDRUS-ZG01-ZAGESZCZARKA-SPALINOWA-UBIJARKA-96-KG-6-5-KM_L.jpg",
+                    "thumbnail": "/assets/budowlane/Zageszczarka_CEDRUS/CEDRUS-ZG01-ZAGESZCZARKA-SPALINOWA-UBIJARKA-96-KG-6-5-KM_L.jpg"
                 }
 
             ],
-            "price": "319",
+            "pricePerDay": 999,
+            "deposit": 500,
             "parameters": {
-                "Rodzaj produktu": "Młotowiertarka",
-                "Przeznaczenie": "Do użytku profesjonalnego",
-                "Waga [kg]": 2.3,
-                "Zasilanie": "Akumulatorowe",
-                "Silnik": "Bezszczotkowy",
-                "Napięcie akumulatora [V]": 18,
-                "Liczba akumulatorów": 2,
-                "Pojemność akumulatora [Ah]": "4",
-                "Energia udaru [J]": "2",
-                "Liczba udarów": 5100,
-                "Prędkość obrotowa bez obciążenia [obr/min]": 1800,
-                "Regulacja prędkości": "Tak",
-                "Dwa kierunki obrotów": "Tak",
-                "Blokada pracy ciągłej": "Nie",
-                "Ograniczenie głębokości": "Tak",
-                "Typ uchwytu": "SDS+",
-                "Wyposażenie": "Rękojeść dodatkowa, Sukno maszynowe, Szybka ładowarka GAL 18V-40 Professional, Walizka, Zestaw akcesoriów"
+                "Rodzaj produktu": "Zagęszczarka spalinowa",
+                "Wymiary płyty": "56x52cm",
+                "Siła zagęszczania": "20kN",
+                "Waga": "96kg",
+                "Głębokość zagęszczania": "35cm",
+                "Grubość płyty": "12mm",
+                "Silnik": "Spalinowy",
+                "Producent silnika": "Loncin",
+                "Model silnika": "G200F",
+                "Max moc silnika": "6,5KM",
+                "Dodatkowe zalety": "mata silikonowa i koła transpotortowe w standardzie"
             },
             "files": [
                 "/assets/pdf/instrukcje/instrukcja-obslugi-bosch_gbh_180li.pdf"
             ]
+        },
+
+
+
+
+        {
+            "id": "Wiertnica_Glebowa_BlueBird",
+            "name": "Wiertnica glebowa BlueBird NEA610E",
+            "description": "Spalinowe wiertnice do ziemi Blue Bird przeznaczone są do przygotowania otworów pod palowanie, zalesianie, sadzenie drzew owocowych, budowaniu ogrodzeń. Świdry do ziemi są niezbędne w gospodarstwach rolnych, sadowniczych, szkółkach, leśnictwie, a także na placach budowy. Spalinowe wiertnice do ziemi Blue Bird przeznaczone są do przygotowania otworów pod palowanie, zalesianie, sadzenie drzew owocowych, budowaniu ogrodzeń. Świdry do ziemi są niezbędne w gospodarstwach rolnych, sadowniczych, szkółkach, leśnictwie, a także na placach budowy. Unikalna konstrukcja przekładni została wyprodukowana przy użyciu najwyższej jakości materiałów, tak aby sprostać nawet najtrudniejszym zadaniom.",
+            "category": "budowlane",
+            "mainImage": "/assets/budowlane/Wiertnica_Glebowa_BlueBird/WIERTNICA_GLEBOWA_BLUEBIRD_NEA_610E.jpg",
+            "images": [{
+                    "original": "/assets/budowlane/Wiertnica_Glebowa_BlueBird/WIERTNICA_GLEBOWA_BLUEBIRD_NEA_610E.jpg",
+                    "thumbnail": "/assets/budowlane/Wiertnica_Glebowa_BlueBird/WIERTNICA_GLEBOWA_BLUEBIRD_NEA_610E.jpg"
+                },
+                {
+                    "original": "/assets/budowlane/Wiertnica_Glebowa_BlueBird/WIERTNICA GLEBOWA BLUEBIRD NEA 610E_2.jpg",
+                    "thumbnail": "/assets/budowlane/Wiertnica_Glebowa_BlueBird/WIERTNICA GLEBOWA BLUEBIRD NEA 610E_2.jpg"
+                }
+
+            ],
+            "pricePerDay": 999,
+            "deposit": 500,
+            "parameters": {
+                "Rodzaj produktu": "Wiertnica glebowa",
+                "Silnik": "Blue Bird 2-suw",
+                "Pojemność silnika": "57,9 cm3",
+                "Moc": "3,8KM",
+                "Przekładnia": "zębata Profi",
+                "Rozruch": "ręczny",
+                "Mieszanka": "1:50",
+                "Max średnica wiertła": "25cm",
+                "Max długość wiertła": "180cm",
+                "Waga": "10,7kg"
+            }
+        },
+        {
+            "id": "wertykulator_husqvarna_S500PRO",
+            "name": "Wertykulator HUSQVARNA S500 PRO",
+            "description": "Model S500 Pro to solidny wertykulator, przeznaczony do intensywnej, profesjonalnej pracy. Niewielki rozmiar i mocny silnik sprawiają, że model S 500 Pro można używać zarówno na dużych przestrzeniach jak i małych trawnikach przydomowych. Niezastąpiony dla np. firm zajmujących się profesjonalną pielegnacją trawników. Cena obejmuje urządzenia tnące - noże bijakowe.",
+            "category": "budowlane",
+            "mainImage": "/assets/budowlane/wertykulator_husqvarna_S500PRO/wertykulator_husqvarna_S500PRO.webp",
+            "images": [{
+                    "original": "/assets/budowlane/wertykulator_husqvarna_S500PRO/wertykulator_husqvarna_S500PRO.webp",
+                    "thumbnail": "/assets/budowlane/wertykulator_husqvarna_S500PRO/wertykulator_husqvarna_S500PRO.webp"
+                }
+
+            ],
+            "pricePerDay": 999,
+            "deposit": 500,
+            "parameters": {
+                "Moc silnika": "4,5kW",
+                "Obroty silnika": "3 300 obr./min",
+                "Szerokość koszenia": "50cm",
+                "Maks. wysokość koszenia": "0mm",
+                "Min. wysokość koszenia": "-5mm",
+                "Rodzaj noża": "Swing blades",
+                "Waga": "65kg",
+                "Dodatkowe": "składany uchwyt, 2 stopniowa regulacja wysokości uchwytu, noże bijakowe, regulacja głębokości roboczej za pomocą pokrętła"
+            }
+        },
+        {
+            "id": "szablon do kopiowania",
+            "name": "pusty do kopiwoania",
+            "description": "",
+            "category": "budowlane",
+            "mainImage": "/assets/budowlane/Wiertnica_Glebowa_BlueBird/a.jpg",
+            "images": [{
+                    "original": "/assets/budowlane/Wiertnica_Glebowa_BlueBird/a.jpg",
+                    "thumbnail": "/assets/budowlane/Wiertnica_Glebowa_BlueBird/a.jpg"
+                }
+
+            ],
+            "pricePerDay": 999,
+            "deposit": 500,
+            "parameters": {
+                "": ""
+            }
         }
     ]
 }
