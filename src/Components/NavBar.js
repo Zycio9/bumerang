@@ -32,9 +32,14 @@ const navItems = [
         subItems: true,
     },
     {
+        name: 'Wypożyczalnia',
+        url: "wypozyczalnia",
+        id: 'd',
+    },
+    {
         name: 'Kontakt',
         url: "kontakt",
-        id: 'd',
+        id: 'e',
     }]
 
 const StyledLisItem = styled(ListItem)(({ theme }) => ({
@@ -83,9 +88,9 @@ function Header(props) {
     // menu mobile
     const drawer = (
         <Box sx={{ textAlign: 'center' }}>
-            <NavLink to='/' >
+            {/* <NavLink to='/' >
                 <img className="logo" src={Logo} alt="Strona startowa" />
-            </NavLink >
+            </NavLink > */}
             <Divider />
             <List style={{ fontSize: '24px' }}>
                 {
@@ -156,7 +161,7 @@ function Header(props) {
     return (
         <Box id="header" sx={{ display: 'flex' }} style={{ height: headerHeight }}>
             <AppBar component="nav" style={{ height: headerHeight, zIndex: 100 }}>
-                <Toolbar>
+                <Toolbar sx={{ height: '100%', justifyContent: { sm: 'space-between' } }}>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
@@ -166,31 +171,36 @@ function Header(props) {
                     >
                         <Menu />
                     </IconButton>
-                    <Typography
-                        variant="h6"
-                        component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-                    >
-                        <NavLink to='/' >
-                            <img className="logo" src={Logo} alt="Strona startowa" />
-                        </NavLink >
-                    </Typography>
+                    <div style={{ paddingRight: { xs: '40px', sm: '0' }, width: "100%" }}>
+                        <Typography
+                            variant="h6"
+                            component="div"
+                            style={{
+                                display: 'flex'
+                            }}
+                        >
+                            <NavLink to='/' className={"logo-link"}>
+                                <img className="logo" src={Logo} alt="Strona startowa" />
+                            </NavLink >
+                        </Typography>
+                    </div>
 
 
-                    <Box sx={{ display: { xs: 'none', sm: 'flex' } }} style={{ height: headerHeight }}>
-                        <ul className='z-menu'>
+                    <Box className='z-menu' sx={{ display: { xs: 'none', sm: 'flex' } }} style={{ height: headerHeight }}>
+                        <ul >
                             {
                                 navItems.map((item) => (
                                     item.subItems ? (
-                                        <li key={item.id} className="mega-drop-down">
+                                        <li key={item.id} className="">
                                             <NavLink to={item.url}
                                                 className={({ isActive }) =>
                                                     isActive ? "active_link" : null
                                                 }>
                                                 {item.name}
                                             </NavLink>
-                                            <StyledMegaMenu className="animated fadeIn mega-menu" style={{ top: headerHeight }}>
-                                                <div className="mega-menu-wrap">
+                                            {/* mega menu */}
+                                            <StyledMegaMenu className=" mega-menu" style={{ top: headerHeight }}>
+                                                <div className="">
                                                     {
                                                         data.categories.map((category) => (
                                                             <div key={category.id}
@@ -210,7 +220,7 @@ function Header(props) {
 
                                     ) : (
 
-                                        <ListItem key={item.id} disablePadding style={{ display: 'inline' }}>
+                                        <ListItem key={item.id} disablePadding >
                                             <NavLink to={item.url}
                                                 className={({ isActive }) =>
                                                     isActive ? "active_link" : null
@@ -225,7 +235,7 @@ function Header(props) {
                     </Box>
                 </Toolbar>
 
-            </AppBar>
+            </AppBar >
 
             <Box component="nav">
                 <Drawer

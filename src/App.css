@@ -17,10 +17,6 @@
 }
 
 
-.appbarWrapper {
-  width: 80%;
-  margin: 0 auto;
-}
 
 
 
@@ -29,39 +25,79 @@
   text-align: center;
 }
 
+@media (max-width: 599px) {
+  .logo-link {
+    margin: auto;
+  }
 
+}
 
 .logo {
-
   margin: 5px;
   width: auto;
   max-height: 40px;
   height: 100%;
 }
 
+
+
+
+/* ### Menu ### */
 .active_link {
   color: #e22658 !important;
 }
 
 
 
-.z-menu>li>a:hover {
-  color: #e22658 !important;
+.z-menu ul .mega-menu {
+  position: absolute;
+  display: flex;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  padding: 0 10px;
+  background-color: #333;
+  transition: opacity 150ms, visibility 150ms;
+  transition-delay: 250ms;
+}
+
+.z-menu ul li:hover .mega-menu {
+  visibility: visible;
+  opacity: 1;
+  transition: 150ms;
 }
 
 
-
-
-
-
-
-
-
-
-ul {
-  list-style: none;
+.z-menu>ul {
+  display: flex;
+  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+
+.z-menu li {
+  list-style: none;
+  padding: 0 10px;
+  height: 100%;
+  white-space: nowrap;
+}
+
+
+.z-menu>ul>li>a {
+  line-height: 64px;
+  color: #ccc;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.2s linear, background 0.2s linear,
+    opacity 0.2s linear;
+}
+
+.z-menu>ul>li:hover>a {
+  color: #e22658 !important;
 }
 
 a,
@@ -73,79 +109,9 @@ a:focus {
   text-decoration: none;
 }
 
-.z-menu {
-  width: 100%;
-  display: flex;
-  list-style: none;
-  /* position: relative; */
-  /* background: #23364B; */
-}
-
-.z-menu>li {
-  display: flex;
-}
-
-.z-menu>li>a {
-  color: #ccc;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  transition: color 0.2s linear, background 0.2s linear,
-    opacity 0.2s linear;
-}
-
-.z-menu>li>a.active,
-.z-menu>li>a:hover,
-li.drop-down ul>li>a:hover {
-  /* background: #009FE1; */
-  background: #ffffff10;
-  color: #fff;
-  transition: color 0.2s linear, background 0.2s linear,
-    display 0.2s linear 0.2s;
-}
-
-/*mega menu*/
-
-.mega-menu {
-  position: absolute;
-  background-color: #333;
-  left: 0;
-  right: 0;
-  padding: 15px;
-  display: none;
-  opacity: 0;
-  padding-top: 0;
-  min-height: 100%;
-
-}
-
-.mega-menu-wrap a {
-  color: #ccc;
-}
 
 
 
-.mega-menu ul li a {
-  line-height: 25px;
-  font-size: 90%;
-  display: block;
-}
-
-
-/*hover*/
-
-.mega-menu:hover,
-.mega-drop-down a:hover+.mega-menu {
-  display: block;
-  opacity: 1;
-}
-
-
-
-.z-menu>li>a {
-  display: block;
-  padding: 20px 10px;
-}
 
 
 
