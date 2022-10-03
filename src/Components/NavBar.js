@@ -96,8 +96,8 @@ function Header(props) {
                 {
                     navItems.map((item) => (
                         item.subItems ? (
-                            <>
-                                <StyledLisItem key={item.id} onClick={handleClick}>
+                            <div key={item.id}>
+                                <StyledLisItem onClick={handleClick}>
                                     <NavLink
                                         to={item.url}
                                         style={{
@@ -133,7 +133,7 @@ function Header(props) {
                                         }
                                     </List>
                                 </Collapse>
-                            </>
+                            </div>
 
                         ) : (
 
