@@ -1,18 +1,19 @@
 import { useLayoutEffect, useState } from 'react';
 
-export default function useWindowPosition(id) {
+export default function useWindowPosition(element) {
     const [animation, setAnimation] = useState(false);
 
     useLayoutEffect(() => {
         function updatePosition() {
-            const offetSetHeight = window.document.getElementById(id).offsetHeight;
-            if (window.pageYOffset > offetSetHeight * 0.7) {
+            const offsetSetHeight = element.offsetHeight;
+
+            if (window.pageYOffset > offsetSetHeight * 0.7 || window.pageYOffset === 0) {
                 setAnimation(true);
             }
         }
         window.addEventListener('scroll', updatePosition);
         updatePosition();
         return () => window.removeEventListener('scroll', updatePosition);
-    }, [id]);
+    }, [element]);
     return animation;
 }

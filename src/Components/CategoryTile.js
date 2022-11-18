@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 import { Typography, Card, CardMedia, CardContent, Button, Collapse } from '@mui/material'
 import { NavLink } from 'react-router-dom';
 
 import { styled, useTheme } from '@mui/material/styles';
+import useWindowPosition from '../hooks/useWindwPosition';
 
 
-
-const CategoryTile = ({ checked, right, category }) => {
-
+const CategoryTile = ({ right, category }) => {
+    const tileObject = useRef()
+    const checked = useWindowPosition(tileObject);
 
     const StyledCard = styled(Card)(({ theme }) => ({
         "overflow": "hidden",
@@ -50,7 +51,7 @@ const CategoryTile = ({ checked, right, category }) => {
     }));
 
     return (
-        <Collapse in={checked} {...(checked ? { timeout: 1000 } : {})} style={{
+        <Collapse ref={tileObject} in={checked} {...(checked ? { timeout: 1000 } : {})} style={{
             ":hover": { cursor: "pointer", backgroundColor: "#ffff9b", color: "#fd0808" },
             "&:before": {
                 content: '""',
