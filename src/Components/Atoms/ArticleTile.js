@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography, Card, CardMedia, CardContent, Button, Collapse } from '@mui/material'
-import { NavLink, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 // * * * * * * * * * * * * *
 // * Prosty pojedynczy kafelek artykułu, z którego przechodzimy na jego stronę z dokładniejszymi informacjami
@@ -8,21 +8,16 @@ import { NavLink, useParams } from 'react-router-dom';
 
 const ArticleTile = ({ article }) => {
     const { categoryId } = useParams();
-    console.log(categoryId, article);
+    console.log(article)
     return (
         <Card
             elevation={2}
             style={{
 
                 height: "100%",
-                width: "100%",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-                // transition: "all .5s",
-                // backgroundImage: `url(${article.image})`,
             }}
         >
-            <NavLink to={`${article.id}`}>
+            <Link to={`/oferta/${categoryId}/${article.id}`}>
                 <CardMedia style={{
                     // ...article.css,
                     height: "300px",
@@ -34,16 +29,19 @@ const ArticleTile = ({ article }) => {
 
                     alt={article.name}
                     title={article.name} />
-            </NavLink>
+            </Link>
             <CardContent
                 style={{
+                    height: 'calc(100% - 300px)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'space-between'
                     // marginTop: '20%',
                     // position: "relative",
                     // background: 'transparent'
                 }}>
                 <Typography
-                    variant="h4"
-                    color="primary">
+                    variant="h4">
                     {article.name}
                 </Typography>
                 {/* <Typography
@@ -51,17 +49,13 @@ const ArticleTile = ({ article }) => {
                     color="textSecondary">
                     {article.description}
                 </Typography> */}
-                <NavLink to={`${article.id}`}
+                <Link to={`/oferta/${categoryId}/${article.id}`}
+                    style={{ marginTop: '1rem' }}
                 >
-                    <Button
-                        style={{
-                            marginTop: '2rem',
-                            marginLeft: 'auto'
-                        }}
-                        variant="contained">
+                    <Button variant="contained" fullWidth>
                         Zobacz więcej
                     </Button>
-                </NavLink>
+                </Link>
             </CardContent>
         </Card >
     )

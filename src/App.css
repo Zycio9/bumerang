@@ -121,16 +121,17 @@ a:focus {
 }
 
 .content-wrap {
+  padding: 1rem;
   padding-bottom: 10rem;
   /* Footer height */
 }
 
 
 #footer {
+  padding: 1rem;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 5rem;
   background-color: #333;
 }
 
