@@ -11,7 +11,7 @@ import Footer from './Components/Footer';
 // pages
 import Start from "./Pages/StartPage"
 import About from "./Pages/AboutPage"
-import Offer from "./Pages/Rental"
+import Rental from "./Pages/Rental"
 import Offer from "./Pages/OfferPage"
 import Contact from "./Pages/ContactPage"
 import Page404 from "./Pages/Page404.js"
