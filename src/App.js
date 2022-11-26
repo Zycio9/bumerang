@@ -5,18 +5,16 @@ import { Container, Typography, Button } from '@mui/material';
 
 import './App.css';
 
-
 import Header from './Components/NavBar';
 import Footer from './Components/Footer';
 
 // pages
 import Start from "./Pages/StartPage"
 import About from "./Pages/AboutPage"
+import Offer from "./Pages/Rental"
 import Offer from "./Pages/OfferPage"
-import Budowlane from "./Pages/OfferBudowlanePage"
-import Ogrodowe from "./Pages/OfferOgrodowePage"
-import Przyczepy from "./Pages/OfferPrzyczepyPage"
 import Contact from "./Pages/ContactPage"
+import Page404 from "./Pages/Page404.js"
 
 
 import Banner from "./Components/Banner"
@@ -76,10 +74,11 @@ function App() {
           <Route path="/" element={<Start />} />
           <Route path="onas" element={<About />} />
           <Route path="kontakt" element={<Contact />} />
-
+          <Route path="wypozyczalnia" element={<Rental />} />
           <Route path="oferta" element={<Offer />} />
           <Route path="oferta/:categoryId" element={<CategoryTemplate />} />
           <Route path="oferta/:categoryId/:articleId" element={<ArticleTemplate />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
       </Container>
       <Footer />

@@ -20,7 +20,7 @@ export default function ParametersTable({ data }) {
 
     return (
         <TableContainer >
-            <Table /*sx={{ minWidth: 650 }}*/ aria-label="Tabela parametrów">
+            <Table aria-label="Tabela parametrów">
                 <TableHead >
                     <TableRow style={{ background: theme[0].palette.primary.main }}>
                         <TableCell className={'table-header'}>Parametr</TableCell>
