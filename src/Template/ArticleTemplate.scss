@@ -1,0 +1,72 @@
+.articleTemplate {
+    margin-top: 2rem;
+    ;
+
+    .PriceLabel {
+        padding: 15px !important;
+        text-align: center;
+        border-radius: 5px;
+        max-width: 49%;
+
+        font-weight: 700;
+        // margin: 20px 0;
+
+        &__PricePerDay {
+            background: #e22658;
+        }
+
+        &__deposit {
+            background: #515151;
+        }
+
+        &__price {
+            display: inlineblock;
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+
+            &--PricePerDay {}
+
+            &--deposit {}
+        }
+
+        &__name {
+            display: block;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+
+
+            &--PricePerDay {
+                color: #991a3c;
+            }
+
+            &--deposit {
+                color: #2a2a2a;
+            }
+        }
+    }
+
+    .deposit {
+        &__price {}
+
+        &__name {}
+    }
+}
+
+
+.kalendarz {
+    max-width: 100%;
+}
+
+// xs: 0, sm: 600, md: 900, lg: 1200, xl: 1536
+.image-gallery-image {
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    // @media screen and (min-width: 900px) {
+    //     height: 600px;
+    // }
+}
+
+.image-gallery-icon:hover {
+    color: #e22658;
+}
