@@ -8,7 +8,7 @@ import { styled, useTheme } from '@mui/material/styles';
 import data from '../data.json'
 import Logo from '../images/bumerang_logo_white.png'
 
-
+import './NavBar.scss'
 
 
 
@@ -160,7 +160,7 @@ function Header(props) {
 
     return (
         <Box id="header" sx={{ display: 'flex' }} style={{ height: headerHeight }}>
-            <AppBar component="nav" style={{ height: headerHeight, zIndex: 100 }}>
+            <AppBar component="nav" style={{ height: headerHeight }}>
                 <Toolbar sx={{ height: '100%', justifyContent: { sm: 'space-between' } }}>
                     <IconButton
                         color="inherit"
@@ -199,22 +199,33 @@ function Header(props) {
                                                 {item.name}
                                             </NavLink>
                                             {/* mega menu */}
-                                            <StyledMegaMenu className=" mega-menu" style={{ top: headerHeight }}>
-                                                <div className="">
+                                            <StyledMegaMenu className="mega-menu" style={{ top: headerHeight }}>
+                                                <Grid
+                                                    container
+                                                    spacing={4}
+                                                    justifyContent="space-between"
+                                                    alignItems="stretch"
+                                                    className="">
                                                     {
                                                         data.categories.map((category) => (
-                                                            <div key={category.id}
-                                                                style={{ display: 'block' }}>
-                                                                <NavLink to={category.url} style={{ width: '100%', }}
+                                                            <Grid container item
+                                                                sm={6}
+                                                                md={3}
+                                                                key={category.id}
+                                                                flexDirection="column"
+                                                                className='.mega-menu__tile'>
+                                                                <NavLink to={category.url}
                                                                     className={({ isActive }) =>
                                                                         isActive ? "active_link" : null
                                                                     }>
-                                                                    {category.title}
-                                                                </NavLink >
-                                                            </div>
+                                                                    <img src={category.menuImage} alt='' />
+
+                                                                    <h2>{category.title}</h2>
+                                                                </NavLink>
+                                                            </Grid>
                                                         ))
                                                     }
-                                                </div>
+                                                </Grid>
                                             </StyledMegaMenu>
                                         </li>
 
@@ -235,7 +246,7 @@ function Header(props) {
                     </Box>
                 </Toolbar>
 
-            </AppBar >
+            </AppBar>
 
             <Box component="nav">
                 <Drawer

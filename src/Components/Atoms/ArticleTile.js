@@ -2,6 +2,7 @@ import React from 'react'
 import { Typography, Card, CardMedia, CardContent, Button, Collapse } from '@mui/material'
 import { Link, useParams } from 'react-router-dom';
 
+import './ArticleTile.scss'
 // * * * * * * * * * * * * *
 // * Prosty pojedynczy kafelek artykułu, z którego przechodzimy na jego stronę z dokładniejszymi informacjami
 // * * * * * * * * * * * * *
@@ -12,43 +13,29 @@ const ArticleTile = ({ article }) => {
     return (
         <Card
             elevation={2}
-            style={{
-
-                height: "100%",
-            }}
+            className={'articleTile'}
         >
             <Link to={`/oferta/${categoryId}/${article.id}`}>
-                <CardMedia style={{
-                    // ...article.css,
-                    height: "300px",
-                    backgroundSize: 'contain',
-                    backgroundColor: 'white'
-                }}
-                    // media="picture"
-                    image={article.mainImage}
+                <div className={'articleTile__media'}
 
-                    alt={article.name}
-                    title={article.name} />
+                // media="picture"
+                >
+                    <img src={article.mainImage}
+                        className={'articleTile__mediaImage'}
+                        alt={article.name}
+                        title={article.name} />
+                </div>
             </Link>
-            <CardContent
-                style={{
-                    height: 'calc(100% - 300px)',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'space-between'
-                    // marginTop: '20%',
-                    // position: "relative",
-                    // background: 'transparent'
-                }}>
+            <CardContent className={'articleTile__content'}>
                 <Typography
                     variant="h4">
                     {article.name}
                 </Typography>
-                {/* <Typography
+                <Typography
                     variant="body1"
                     color="textSecondary">
                     {article.description}
-                </Typography> */}
+                </Typography>
                 <Link to={`/oferta/${categoryId}/${article.id}`}
                     style={{ marginTop: '1rem' }}
                 >

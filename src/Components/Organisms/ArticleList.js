@@ -13,7 +13,8 @@ import data from '../../data.json'
 const ArticleList = ({ category }) => {
 
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={2}
+            className={'articleTileList'}>
             {data.equipment.map((article) => (
                 category === article.category.toLowerCase() ?
                     (<Grid item key={article.id} marginTop={7} xs={12} md={6} lg={4} xl={3}>
