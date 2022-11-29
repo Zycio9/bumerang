@@ -5,6 +5,7 @@
             "shortDescription": "!!!!!!!!!!!!",
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel eius beatae, accusantium a harum amet doloribus consequatur ipsa voluptates perspiciatis totam maxime quos repellat nam adipisci modi dolor fugiat quisquam! Maiores odio modi cupiditate dolor quod pariatur id iusto sapiente voluptatum, consequuntur vel maxime fugiat qui quam reprehenderit et optio soluta ea dolorem quidem officia ut illo.",
             "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg",
+            "menuImage": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg",
             "url": "/oferta/budowlane",
             "css": {
                 "backgroundPosition": "left 30%",
@@ -15,8 +16,9 @@
             "id": 1,
             "title": "Ogrodnicze",
             "description": "Obcaecati rem et eius esse, nesciunt cum ducimus odio! Totam, repellat corrupti eum provident voluptate voluptatem necessitatibus excepturi omnis numquam quas officiis? Iste labore placeat reiciendis, ea optio perspiciatis eveniet excepturi maxime vel dignissimos sapiente ipsam laborum possimus, molestiae qui aut accusamus deleniti?",
-            "category": "Budowlany",
+            "category": "ogrodnicze",
             "image": "assets/trawnik.jpg",
+            "menuImage": "https://www.rebelelectro.com/userdata/public/assets/PORADNIKI/Narzedzia_ogrodowe/REBEL_Tools_AR_1_1180x664px.jpg",
             "url": "/oferta/ogrodnicze",
             "css": {
                 "backgroundPosition": "right 5%",
@@ -29,6 +31,7 @@
             "description": "Iste labore placeat reiciendis, ea optio perspiciatis eveniet excepturi maxime vel dignissimos sapiente ipsam laborum possimus, molestiae qui aut accusamus deleniti? Obcaecati rem et eius esse, nesciunt cum ducimus odio! Totam, repellat corrupti eum provident voluptate voluptatem necessitatibus excepturi omnis numquam quas officiis? ",
             "category": "Budowlany",
             "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
+            "menuImage": "https://a.allegroimg.com/s512/062994/e8b7523a4c4a847246fced494d3a/PLANDEKA-WYSOKA-200X106-TEMA-2010-MARTZ-200-H-800",
             "url": "/oferta/przyczepy",
             "css": {
                 "backgroundSize": "cover"
@@ -40,6 +43,7 @@
             "description": "Iste labore placeat reiciendis, ea optio perspiciatis eveniet excepturi maxime vel dignissimos sapiente ipsam laborum possimus, molestiae qui aut accusamus deleniti? Obcaecati rem et eius esse, nesciunt cum ducimus odio!",
             "category": "Bagażniki rowerowe",
             "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
+            "menuImage": "https://s-trojmiasto.pl/zdj/c/n/9/2039/748x0/2039994-Jeden-z-bagaznikow-wyposazony-fabrycznie-w-13-pinowa-wtyczke.jpg",
             "url": "/oferta/bagazniki",
             "css": {
                 "backgroundSize": "cover"
