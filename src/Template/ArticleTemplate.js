@@ -41,7 +41,6 @@ function ArticleTemplate() {
     useEffect(() => {
 
         data.equipment.forEach(a => {
-            console.log(a.id.toLowerCase(), articleId.toLowerCase());
             if (a.id.toLowerCase() === articleId.toLowerCase()) {
                 setValidArticle(true);
 
@@ -173,9 +172,14 @@ function ArticleTemplate() {
                     {(prevArticle || nextArticle) && <Typography variant='h4' sx={{ mb: 4 }}>Inne z kategorii "{categoryId}"</Typography>}
 
                     {article &&
-                        <Grid container spacing={2} justifyContent='space-between'>
-                            {prevArticle && <Grid item>prev<ArticleTile article={prevArticle} /></Grid>}
-                            {nextArticle && <Grid item>next<ArticleTile article={nextArticle} /></Grid>}
+                        <Grid
+                            container spacing={2}
+                            justifyContent='space-between'
+                            alignItems="stretch"
+                            className={'articleTileList'}
+                        >
+                            {prevArticle && <Grid item md={6}>prev<ArticleTile article={prevArticle} /></Grid>}
+                            {nextArticle && <Grid item md={6}>next<ArticleTile article={nextArticle} /></Grid>}
 
 
                         </Grid>

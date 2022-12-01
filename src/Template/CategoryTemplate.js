@@ -8,19 +8,25 @@ import data from '../data.json'
 function CategoryTemplate() {
     const { categoryId } = useParams();
     const [valid, setValid] = useState(false);
+    const [category, setCategory] = useState({});
 
     useEffect(() => {
         data.categories.forEach(c => {
             if (c.title.toLowerCase() === categoryId.toLowerCase()) {
                 setValid(true);
+                setCategory(c)
             }
         });
     }, [categoryId])
 
+    useEffect(() => {
 
+        console.log(category)
+    }, [category])
     return (
         valid ? <>{console.log(categoryId)}
-            <Typography variant="text-align: center">Kategoria {categoryId.charAt(0).toUpperCase() + categoryId.slice(1)}</Typography>
+            <Typography variant="h1" color='primary'>{category.title}</Typography>
+            <Typography variant="body1" >{category.description}</Typography>
             <ArticleList category={categoryId} />
         </> : <Page404 whatIsWrong={'category'} />
     )

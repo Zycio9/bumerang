@@ -9,7 +9,6 @@ import './ArticleTile.scss'
 
 const ArticleTile = ({ article }) => {
     const { categoryId } = useParams();
-    console.log(article)
     return (
         <Card
             elevation={2}
