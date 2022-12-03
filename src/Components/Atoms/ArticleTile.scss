@@ -37,13 +37,15 @@
         background-color: white;
         transition: all .2s;
         overflow: hidden;
+        height: 300px;
 
 
     }
 
     &__mediaImage {
-        height: 300px;
-        background-size: contain;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
         transition: all 0.2s ease-out;
     }
 }
