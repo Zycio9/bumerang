@@ -30,11 +30,14 @@ const ArticleTile = ({ article }) => {
                     variant="h4">
                     {article.name}
                 </Typography>
-                <Typography
-                    variant="body1"
-                    color="textSecondary">
-                    {article.description}
-                </Typography>
+                {
+                    article.description ?
+                        <Typography
+                            variant="body1"
+                            color="textSecondary">
+                            {article.shortDescription}
+                        </Typography> : null
+                }
                 <Link to={`/oferta/${categoryId}/${article.id}`}
                     style={{ marginTop: '1rem' }}
                 >
