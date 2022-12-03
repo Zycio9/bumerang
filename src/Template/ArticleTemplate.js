@@ -160,6 +160,17 @@ function ArticleTemplate() {
                             <Typography variant="body1" sx={{ mb: 8 }}>
                                 {article.description}
                             </Typography>
+
+                            {article.benefits ?
+                                <>
+                                    <Typography variant="h2" color='primary'>Zalety</Typography>
+                                    <ul className='articleTemplate___benefits'>
+                                        {article.benefits.map((ben) => (
+                                            <li>{ben}</li>
+                                        ))}
+                                    </ul>
+                                </> : null}
+
                             <ParametersTable data={article.parameters} style={{ marginTop: '3rem' }} />
                         </Grid>
                     </Grid>}
