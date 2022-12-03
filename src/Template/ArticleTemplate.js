@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, NavLink } from 'react-router-dom'
 import { Typography, Grid } from '@mui/material';
 // import { LightgalleryItem } from "react-lightgallery";
 import ImageGallery from "react-image-gallery";
@@ -24,6 +24,7 @@ function ArticleTemplate() {
     const [prevArticle, setPrevArticle] = useState(null);
     const [nextArticle, setNextArticle] = useState(null);
     const [categoryArticles, setCategoryArticles] = useState([]) // lista artykułów danej kategorii - może się przyda, zebrane przy okazji
+    const [category, setCategory] = useState([]) // lista artykułów danej kategorii - może się przyda, zebrane przy okazji
     const [validCategory, setValidCategory] = useState(false);
     const [validArticle, setValidArticle] = useState(false);
 
@@ -33,6 +34,7 @@ function ArticleTemplate() {
         data.categories.forEach(c => {
             if (c.id.toLowerCase() === categoryId.toLowerCase()) {
                 setValidCategory(true);
+                setCategory(c)
             }
         });
     }, [categoryId])
@@ -151,12 +153,15 @@ function ArticleTemplate() {
 
 
                         <Grid item>
-                            <Typography variant="h1" >
+                            <Typography variant="h1">
                                 {article.name}
                             </Typography>
-                            <Typography variant="caption" sx={{ mb: 2 }} color="primary">
-                                Kategoria {categoryId.charAt(0).toUpperCase() + categoryId.slice(1)}
-                            </Typography>
+                            <NavLink
+                                to={category.url}>
+                                <Typography variant="h4" sx={{ mb: 1 }} color="primary" className='categoryLink'>
+                                    &raquo;  Kategoria: {category.title}
+                                </Typography>
+                            </NavLink>
                             <Typography variant="body1" sx={{ mb: 8 }}>
                                 {article.description}
                             </Typography>

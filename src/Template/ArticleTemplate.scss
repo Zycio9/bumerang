@@ -56,12 +56,21 @@
     &___benefits {
         margin-bottom: 2rem;
     }
+
+    .categoryLink {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 
 .kalendarz {
     max-width: 100%;
 }
+
+
+
 
 // xs: 0, sm: 600, md: 900, lg: 1200, xl: 1536
 .image-gallery-image {
