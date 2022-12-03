@@ -12,7 +12,7 @@ function CategoryTemplate() {
 
     useEffect(() => {
         data.categories.forEach(c => {
-            if (c.title.toLowerCase() === categoryId.toLowerCase()) {
+            if (c.id.toLowerCase() === categoryId.toLowerCase()) {
                 setValid(true);
                 setCategory(c)
             }
