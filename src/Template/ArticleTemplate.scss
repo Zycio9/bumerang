@@ -85,3 +85,8 @@
 .image-gallery-icon:hover {
     color: #e22658;
 }
+
+.image-gallery-thumbnail.active,
+.image-gallery-thumbnail:focus {
+    border-color: #e22658;
+}

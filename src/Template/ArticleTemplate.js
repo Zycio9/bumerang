@@ -194,20 +194,12 @@ function ArticleTemplate() {
                             alignItems="stretch"
                             className={'articleTileList'}
                         >
-                            {prevArticle && <Grid item md={6}>prev<ArticleTile article={prevArticle} /></Grid>}
-                            {nextArticle && <Grid item md={6}>next<ArticleTile article={nextArticle} /></Grid>}
+                            {prevArticle && <Grid item md={6}><ArticleTile article={prevArticle} /></Grid>}
+                            {nextArticle && <Grid item md={6}><ArticleTile article={nextArticle} /></Grid>}
 
 
                         </Grid>
                     }
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-
-                    <Typography variant="text-align: center">Kategoria {categoryId.charAt(0).toUpperCase() + categoryId.slice(1)}</Typography><br />
-                    <Typography variant="text-align: center">Artykuł {articleId.charAt(0).toUpperCase() + articleId.slice(1)}</Typography>
                 </> : <Page404 whatIsWrong='article' />)
             : <Page404 whatIsWrong='category' />
     )
