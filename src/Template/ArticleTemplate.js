@@ -90,7 +90,7 @@ function ArticleTemplate() {
                             setPrevArticle(tmpArtlicleList[index - 1])
                             setNextArticle(tmpArtlicleList[index + 1])
                         }
-
+ 
                         break
                     }
                 }
