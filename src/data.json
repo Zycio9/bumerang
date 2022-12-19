@@ -1082,6 +1082,203 @@
             "files": [
                 ""
             ]
+        }, {
+            "id": "przyczepa_dwuosiowa_3x1.5m",
+            "name": "Przyczepa dwuosiowa 3x1.5m",
+            "description": "Przyczepa dwuosiowa o DMC 750kg jest bardzo dobrą alternatywą dla przyczep jednoosiowych. Dzięki wzmocnionej konstrukcji i zastosowaniu dwóch osi świetnie sprawdzi się podczas przewożenia cięższych ładunków. Przyczepa dwuosiowa sprawdzi się o wiele lepiej przy rozładunku lub załadunku bez samochodu (np. w garażu, pod blokiem, itp.). Przyczepa nowa (rocznik 2022). Przy wynajmie przyczepy pasy transportowe gratis. Przyczepa wyposażona w pełne oświetlenie LED. Przyczepa dostępna z plandeką lub bez plandeki – wedle życzenia klienta.",
+            "category": "przyczepy",
+            "mainImage": "",
+            "images": [{
+                    "original": "",
+                    "thumbnail": ""
+                },
+                {
+                    "original": "",
+                    "thumbnail": ""
+                }
+
+            ],
+            "pricePerDay": 60,
+            "deposit": 300,
+            "parameters": {
+                "Długość": "3m",
+                "Szerokość": "1.5m",
+                "Wysokość załadunkowa": "1.66m",
+                "DMC": "750kg",
+                "Maksymalna ładowność": "450kg",
+                "Ilość osi": "2"
+            },
+            "files": [
+                ""
+            ],
+
+            "benefits": [
+                "Otwierana przednia i tylna burta",
+                "Pełne oświetlenie LED",
+                "Szczelna plandeka"
+            ]
+
+        },
+
+
+
+
+
+
+        {
+            "id": "przyczepa_jednosiowa_3x1.5m",
+            "name": "Przyczepa jednoosiowa 3x1.5m",
+            "description": "Przyczepa jednoosiowa o DMC 750kg idealnie nadaje się do przewożenia lżejszych ładunków (do około 500kg). Przyczepa jest łatwa w prowadzeniu i manewrowaniu. Nasza przyczepa jest wyposażona w resorowane zawieszenie, dzięki czemu ładunek nie podskakuje na wybojach, prowadzi się pewnie i stabilnie. Przyczepa nowa (rocznik 2022). Przy wynajmie przyczepy pasy transportowe gratis. Przyczepa wyposażona w pełne oświetlenie LED. Przyczepa dostępna z plandeką lub bez plandeki – wedle życzenia klienta.",
+            "category": "przyczepy",
+            "mainImage": "",
+            "images": [{
+                    "original": "",
+                    "thumbnail": ""
+                },
+                {
+                    "original": "",
+                    "thumbnail": ""
+                }
+
+            ],
+            "pricePerDay": 60,
+            "deposit": 300,
+            "parameters": {
+                "Długość": "3m",
+                "Szerokość": "1.5m",
+                "Wysokość załadunkowa": "1.66m",
+                "DMC": "750kg",
+                "Maksymalna ładowność": "480kg",
+                "Ilość osi": "1"
+            },
+            "files": [
+                ""
+            ],
+
+            "benefits": [
+                "Otwierana przednia i tylna burta",
+                "Pełne oświetlenie LED",
+                "Szczelna plandeka"
+            ]
+
+        },
+
+
+        {
+            "id": "przyczepa_jednosiowa_2.7x1.4m",
+            "name": "Przyczepa jednoosiowa 2.7x1.4m",
+            "description": "Przyczepa jednoosiowa o DMC 750kg idealnie nadaje się do przewożenia lżejszych ładunków (do około 500kg). Przyczepa jest łatwa w prowadzeniu i manewrowaniu. Nasza przyczepa jest wyposażona w resorowane zawieszenie, dzięki czemu ładunek nie podskakuje na wybojach, prowadzi się pewnie i stabilnie. Przyczepa nowa (rocznik 2022). Przy wynajmie przyczepy pasy transportowe gratis. Przyczepa wyposażona w pełne oświetlenie LED. Przyczepa dostępna z plandeką lub bez plandeki – wedle życzenia klienta.",
+            "category": "przyczepy",
+            "mainImage": "",
+            "images": [{
+                    "original": "",
+                    "thumbnail": ""
+                },
+                {
+                    "original": "",
+                    "thumbnail": ""
+                }
+
+            ],
+            "pricePerDay": 60,
+            "deposit": 300,
+            "parameters": {
+                "Długość": "2.7m",
+                "Szerokość": "1.4m",
+                "Wysokość załadunkowa": "1.56m",
+                "DMC": "750kg",
+                "Maksymalna ładowność": "500kg",
+                "Ilość osi": "1"
+            },
+            "files": [
+                ""
+            ],
+
+            "benefits": [
+                "Otwierana przednia i tylna burta",
+                "Pełne oświetlenie LED",
+                "Szczelna plandeka"
+            ]
+
+        },
+
+
+
+        {
+            "id": "przyczepa_do_przewozu_motocykli",
+            "name": "Przyczepa do przewozu motocykli",
+            "description": "Przyczepa jednoosiowa do przewozu motocykli o DMC 750kg idealnie nadaje się do przewożenia do 3 sztuk motocykli. Przyczepa jest łatwa w prowadzeniu i manewrowaniu. Przyczepa jest wyposażona w rynny i haki dzięki którym motocykl jest pewnie i stabilnie zabezpieczony podczas transportu. Przyczepa posiada również dwa najazdy do bezpiecznego załadunku motocykli na przyczepę. Nasza przyczepa jest wyposażona w resorowane zawieszenie, dzięki czemu ładunek nie podskakuje na wybojach, prowadzi się pewnie i stabilnie. Przyczepa nowa (rocznik 2022). Przy wynajmie przyczepy pasy transportowe gratis. Przyczepa wyposażona w pełne oświetlenie LED.",
+            "category": "przyczepy",
+            "mainImage": "",
+            "images": [{
+                    "original": "",
+                    "thumbnail": ""
+                },
+                {
+                    "original": "",
+                    "thumbnail": ""
+                }
+
+            ],
+            "pricePerDay": 60,
+            "deposit": 300,
+            "parameters": {
+                "Długość": "2.5m",
+                "Szerokość": "1.5m",
+                "DMC": "750kg",
+                "Maksymalna ładowność": "500kg",
+                "Ilość osi": "1"
+            },
+            "files": [
+                ""
+            ],
+
+            "benefits": [
+                "Rynny motocyklowe 3 szt",
+                "Pełne oświetlenie LED"
+            ]
+
+        },
+
+
+
+        {
+            "id": "przyczepa_ciezarowa_5x2m",
+            "name": "Przyczepa ciężarowa 5x2m",
+            "description": "Przyczepa ciężarowa z plandeką o DMC 2700kg idealnie nadaje się do przewożenia ciężkich ładunków. Wymiary przestrzeni ładunkowej to 5 x 2m, a wysokość załadunkowa to aż 2m. Daje to możliwość przewozu wysokich ładunków. Przyczepa wyposażona jest w najazdy o długości 2.5m, wciągarkę oraz tylne podpory dzięki którym załadunek samochodu jest bezpieczny i bezproblemowy. Wszystkie burty w przyczepie są otwierane. Na dłuższych bokach zastosowano plandekę typu firanka. Przyczepa nowa (rocznik 2022). Przy wynajmie przyczepy pasy transportowe gratis. Przyczepa wyposażona w pełne oświetlenie LED.",
+            "category": "przyczepy",
+            "mainImage": "",
+            "images": [{
+                    "original": "",
+                    "thumbnail": ""
+                },
+                {
+                    "original": "",
+                    "thumbnail": ""
+                }
+
+            ],
+            "pricePerDay": 150,
+            "deposit": 500,
+            "parameters": {
+                "Długość": "5m",
+                "Szerokość": "2m",
+                "Wysokość załadunkowa": "2m",
+                "DMC": "2700kg",
+                "Maksymalna ładowność": "2200kg",
+                "Ilość osi": "2"
+            },
+            "files": [
+                ""
+            ],
+
+            "benefits": [
+                "Otwierane wszystkien burty",
+                "Pełne oświetlenie LED",
+                "Szczelna plandeka",
+                "Najazdy 2.5m"
+            ]
+
         }
     ]
 }
