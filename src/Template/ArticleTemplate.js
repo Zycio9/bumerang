@@ -63,7 +63,6 @@ function ArticleTemplate() {
                             if (tmpArtlicleList.length > 1) {
                                 setPrevArticle(tmpArtlicleList[index + 1])
                                 setNextArticle(tmpArtlicleList[index + 2])
-                                console.log('a', tmpArtlicleList[index + 2]);
                             } else if (tmpArtlicleList.length === 1) {
                                 setPrevArticle(tmpArtlicleList[index + 1])
                                 setNextArticle(null)
@@ -90,7 +89,7 @@ function ArticleTemplate() {
                             setPrevArticle(tmpArtlicleList[index - 1])
                             setNextArticle(tmpArtlicleList[index + 1])
                         }
- 
+
                         break
                     }
                 }
@@ -111,7 +110,7 @@ function ArticleTemplate() {
         validCategory ?
             (validArticle ?
                 <>
-                    {article && <Grid container spacing={4} className='articleTemplate'>
+                    {article && <Grid container spacing={2} className='articleTemplate'>
                         <Grid item container md={6}>
 
                             <ImageGallery
@@ -148,10 +147,18 @@ function ArticleTemplate() {
                             </Grid>
                         </Grid>
                         <Grid item md={6}>
-                            <img className="kalendarz" src={Kalendarz} alt="Podgląd kalendarza do rezerwacji" />
+                            {article.widget ?
+                                <iframe src={`https://widget.zarezerwuj.pl/${article.widget}`}
+                                    seamless
+                                    id='iframe' />
+                                :
+                                <>
+                                    <Typography variant="h5">Placeholder... Nie ma podpiętego widgetu</Typography>
+                                    <img className="kalendarz" src={Kalendarz} alt="Podgląd kalendarza do rezerwacji" />
+                                </>
+                            }
+
                         </Grid>
-
-
                         <Grid item>
                             <Typography variant="h1">
                                 {article.name}

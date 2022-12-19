@@ -31,11 +31,11 @@ const navItems = [
         id: 'c',
         subItems: true,
     },
-    {
-        name: 'Wypożyczalnia',
-        url: "wypozyczalnia",
-        id: 'd',
-    },
+    // {
+    //     name: 'Wypożyczalnia',
+    //     url: "wypozyczalnia",
+    //     id: 'd',
+    // },
     {
         name: 'Kontakt',
         url: "kontakt",

@@ -25,20 +25,21 @@ const Banner = () => {
 
             scale = Math.min(windowWidth / screenWidth, windowHeight / screenHeight);
 
-            if (scale < 1) {
-                screen.style.transform = 'translate(-50%, -50%) scale(' + scale + ')';
-            } else {
-                screen.style.transform = 'translate(-50%, -50%) scale(1)';
-            };
+            // if (scale < 1) {
+            //     screen.style.transform = 'translate(-50%, -50%) scale(' + scale + ')';
+            // } else {
+            //     screen.style.transform = 'translate(-50%, -50%) scale(1)';
+            // };
         };
 
         window.onresize = resizeScreen;
         // resizeScreen();
 
         // Parallax behaviour
-        let parallaxLayer1 = document.body.querySelectorAll('.parallax-img')[0]
-        let parallaxLayer2 = document.body.querySelectorAll('.parallax-img')[1]
-        let parallaxLayer3 = document.body.querySelectorAll('.parallax-img')[2]
+        const layers = document.body.querySelectorAll('.parallax-img')
+        let parallaxLayer1 = layers[0]
+        let parallaxLayer2 = layers[1]
+        let parallaxLayer3 = layers[2]
         // screen = document.querySelector('.screen');
 
         document.body.addEventListener('mousemove', onMouseMove);
@@ -46,7 +47,7 @@ const Banner = () => {
         function onMouseMove(ev) {
             parallax(ev, parallaxLayer1, 1);
             parallax(ev, parallaxLayer2, 2);
-            parallax(ev, parallaxLayer3, 5);
+            parallax(ev, parallaxLayer3, 3);
         };
 
         function parallax(ev, parallaxLayer, layer) {

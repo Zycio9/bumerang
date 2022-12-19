@@ -237,6 +237,7 @@
             "description": "Młot udarowy GSH 11 E to specjalista do kucia oraz prac wyburzeniowych. Sprawdzi się doskonale podczas wielu prac budowlanych. Posiada funkcje wiercenia, wiercenia z udarem i dłutowania, dzięki czemu młot ma szerokie zastosowanie. Ekstremalna energia udaru (16,8 J) zapewnia bardzo dużą wydajność pracy. Dodatkowa rękojeść zapewnia pewne i wygodne trzymanie urządzenia zwiększając kontrolę nad młotem w trakcie ciężkich prac. Elektronarzędzie znajduje się w wygodnej, solidnej walizce, dzięki której transport i przechowywanie urządzenia nie sprawia trudności. ",
             "shortDescription": "Młot udarowy GSH 11 E to specjalista do kucia oraz prac wyburzeniowych. Sprawdzi się doskonale podczas wielu prac budowlanych z mocą 1500W",
             "category": "budowlane",
+            "widget": "acd2783c-327d-478b-9015-56d10186f918",
             "mainImage": "/assets/budowlane/mlot_gsh11e/Bosch_GSH_11_E_Mlot_udarowy_1.jpg",
             "images": [{
                     "original": "/assets/budowlane/mlot_gsh11e/Bosch_GSH_11_E_Mlot_udarowy_1.jpg",
@@ -269,7 +270,6 @@
                 ""
             ]
         },
-
 
 
 

@@ -90,3 +90,43 @@
 .image-gallery-thumbnail:focus {
     border-color: #e22658;
 }
+
+
+iframe {
+    border: none;
+    min-height: 650px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.view-calendar {
+
+    .widget-header {
+        margin-bottom: 0;
+    }
+
+    widget-desktop-date-range-view {
+        .reservation-form {
+            // do wypełnienia nad kalendarzem
+        }
+
+        .calendar {
+            .desktop-date-range {
+                .md-drppicker drops-undefined-undefined.ltr.shown.inline.double {
+                    font-size: 10rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop-date-range .md-drppicker {
+        background-image: linear-gradient(to bottom, #e22658 47px, rgba(0, 0, 0, 0) 0) !important;
+    }
+}
+
+.desktop-date-range .md-drppicker {
+    background-image: linear-gradient(to bottom, rgb(var(--secondary-background-color, 245, 245, 245)) 56px, rgba(0, 0, 0, 0) 0) !important;
+}
