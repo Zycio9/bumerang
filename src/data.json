@@ -51,51 +51,50 @@
         "backgroundAttachment": "fixed",
         "backgroundSize": "cover"
     },
-    "equipment": [{
-            "id": "wertykulator_husqvarna_S500PRO",
-            "name": "Wertykulator HUSQVARNA S500 PRO",
-            "description": "Model S500 Pro to solidny wertykulator, przeznaczony do intensywnej, profesjonalnej pracy. Niewielki rozmiar i mocny silnik sprawiają, że model S 500 Pro można używać zarówno na dużych przestrzeniach jak i małych trawnikach przydomowych. Niezastąpiony dla np. firm zajmujących się profesjonalną pielegnacją trawników. Cena obejmuje urządzenia tnące - noże bijakowe.",
+    "equipment": [
+
+        {
+            "id": "wertykulator_husqvarna",
+            "name": "Wertykulator Husqvarna",
+            "description": "Wertykulator S 500 Pro to wytrzymały i ergonomiczny sprzęt przeznaczony do intensywnej i profesjonalnej pracy. Niewielki rozmiar oraz mocny silnik  sprawiają, że można go używać zarówno na dużych otwartych przestrzeniach jak i na mniejszych przydomowych trawnikach czy ogrodach. Niezastąpiony przy właściwej pielęgnacji trawników. Dzięki niemu wyczeszesz trawnik z liści oraz chwastów, a także obrobisz darninę i przyczynisz się do regeneracji trawnika.",
+            "shortDescription": "Wertykulator S500 Pro to wytzrymały i ergonomiczny sprzęt przeznaczony do intensywnej i profesjonalnej pracy. Dzięki niemu wyczeszesz trawnik z liści oraz chwastów, a także obrobisz darninę i przyczynisz się do regeneracji trawnika",
             "category": "ogrodnicze",
-            "mainImage": "/assets/budowlane/wertykulator_husqvarna_S500PRO/wertykulator_husqvarna_S500PRO.webp",
+            "mainImage": "/assets/ogrodnicze/wertykulator_husqvarna/Wertykulator-S500-PRO-Husqvarna_1.png",
             "images": [{
-                    "original": "/assets/budowlane/wertykulator_husqvarna_S500PRO/wertykulator_husqvarna_S500PRO.webp",
-                    "thumbnail": "/assets/budowlane/wertykulator_husqvarna_S500PRO/wertykulator_husqvarna_S500PRO.webp"
+                    "original": "/assets/ogrodnicze/wertykulator_husqvarna/Wertykulator-S500-PRO-Husqvarna_1.png",
+                    "thumbnail": "/assets/ogrodnicze/wertykulator_husqvarna/Wertykulator-S500-PRO-Husqvarna_1.png"
+                },
+                {
+                    "original": "/assets/ogrodnicze/wertykulator_husqvarna/Wertykulator-S500-PRO-Husqvarna_2.webp",
+                    "thumbnail": "/assets/ogrodnicze/wertykulator_husqvarna/Wertykulator-S500-PRO-Husqvarna_2.webp"
                 }
 
             ],
-            "pricePerDay": 999,
-            "deposit": 500,
+            "pricePerDay": 120,
+            "deposit": 300,
+            "benefits": [
+                "Składany uchwyt, dzięki czemu transport jest bezproblemowy",
+                "Wytrzymała i solidna konstrukcja",
+                "Łożyskowany wałek ze swobodnie obracającymi się nożami"
+            ],
             "parameters": {
-                "Moc silnika": "4,5kW",
-                "Obroty silnika": "3 300 obr./min",
-                "Szerokość koszenia": "50cm",
-                "Maks. wysokość koszenia": "0mm",
-                "Min. wysokość koszenia": "-5mm",
-                "Rodzaj noża": "Swing blades",
-                "Waga": "65kg",
-                "Dodatkowe": "składany uchwyt, 2 stopniowa regulacja wysokości uchwytu, noże bijakowe, regulacja głębokości roboczej za pomocą pokrętła"
-            }
+                "Moc": "6.1KM",
+                "Szerokość robocza": "50cm",
+                "Głębokość robocza": "0.5cm",
+                "Typ noży": "Noże bijakowe",
+                "Waga": "65kg"
+
+            },
+            "files": [
+                ""
+            ]
         },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         {
             "id": "wertykulator_dormak_sc40b",
             "name": "Wertykulator Dormak SC 40B",
             "description": "Wertykulator SC40B to wytrzymały i ergonomiczny sprzęt przeznaczony do właściwej pielęgnacji trawników. Niewielki rozmiar oraz mocny silnik  sprawiają, że można go używać zarówno na dużych otwartych przestrzeniach jak i na mniejszych przydomowych trawnikach czy ogrodach. Dzięki niemu wyczeszesz trawnik z liści oraz chwastów, a także obrobisz darninę i przyczynisz się do regeneracji trawnika.",
+            "shortDescription": "Wertykulator SC40B to wytrzymały i ergonomiczny sprzęt przeznaczony do właściwej pielęgnacji trawników. Dzięki niemu wyczeszesz trawnik z liści oraz chwastów, a także obrobisz darninę i przyczynisz się do regeneracji trawnika",
             "category": "ogrodnicze",
             "mainImage": "/assets/ogrodnicze/wertykulator_dormak/dormakSC40B.jpg",
             "images": [{
@@ -104,6 +103,10 @@
             }],
             "pricePerDay": 120,
             "deposit": 300,
+            "benefits": [
+                "Składany uchwyt, dzięki czemu transport jest bezproblemowy",
+                "Wytrzymała i solidna konstrukcja"
+            ],
             "parameters": {
                 "Pojemność silnika": "163ccm",
                 "Szerokość robocza": "40cm",
@@ -123,6 +126,7 @@
             "id": "rozdrabniacz_do_galezi",
             "name": "Rozdrabniacz do gałęzi",
             "description": "Rozdrabniacz do gałęzi DR-GS-65H jest niezastąpionym urządzeniem, które ułatwi ci pracę w ogrodzie oraz zmniejszy powierzchnię odpadów. Duża wydajność i niewielkie rozmiary umożliwiają wykonanie za jego pomocą wszelkich prac nawet w trudnych warunkach terenowych. Doskonale rozdrabnia gałęzie krzewów, drzew i żywopłotów. Powstałe odpady możesz użyć jako kompost pod uprawy lub wysypać dookoła drzewek i krzewów - nadadzą oryginalny wygląd i zapobiegną wyrastaniu chwastów. Dzięki ruchowi ostrza uzyskujesz jednolity, rozdrobniony materiał.",
+            "shortDescription": "Rozdrabniacz do gałęzi DR-GS-65H jest niezastąpionym urządzeniem, które ułatwi ci pracę w ogrodzie oraz zmniejszy powierzchnię odpadów. Doskonale rozdrabnia gałęzie krzewów, drzew i żywopłotów",
             "category": "ogrodnicze",
             "mainImage": "/assets/ogrodnicze/rozdrabniacz/3_max.jpg",
             "images": [{
@@ -142,6 +146,11 @@
             ],
             "pricePerDay": 120,
             "deposit": 300,
+            "benefits": [
+                "Hamulec silnika dla bezpieczeństwa operatora",
+                "Duże koła i uchwyt dla łatwego przemieszczania",
+                "Jednolity, rozdrobniony materiał, który możesz wykorzystać do stworzenia niepowtarzalnego efektu w swoim ogrodzie"
+            ],
             "parameters": {
                 "Maksymalna grubość gałęzi": "7cm",
                 "Moc silnika": "6.5 KM",
@@ -163,7 +172,8 @@
         {
             "id": "kosa_spalinowa_husqvarna_545rx",
             "name": "Kosa spalinowa Husqvarna 545RX",
-            "description": "Kosa spalinowa 545RX wyjątkowo poręczna i ergonomiczna,  o wysokiej wydajności. Zoptymalizowana długość wału, przekładnia ustawiona pod kątem 35 stopni. Bezlitosna dla trawy i zarośli, przyjazna dla Ciebie i łatwa w obsłudze dzięki optymalnemu umieszczeniu środka ciężkości poprzez ulokowanie zbiornika paliwa przed silnikiem. W komplecie dostępne szelki Balance X, które zapewniają komfort podczas pracy.",
+            "description": "Kosa spalinowa 545RX wyjątkowo poręczna i ergonomiczna, o wysokiej wydajności. Zoptymalizowana długość wału, przekładnia ustawiona pod kątem 35 stopni. Bezlitosna dla trawy i zarośli, przyjazna dla Ciebie i łatwa w obsłudze dzięki optymalnemu umieszczeniu środka ciężkości poprzez ulokowanie zbiornika paliwa przed silnikiem. W komplecie dostępne szelki Balance X, które zapewniają komfort podczas pracy.",
+            "shortDescription": "Kosa spalinowa 545RX wyjątkowo poręczna i ergonomiczna, o wysokiej wydajności. Bezlitosna dla trawy i zarośli, przyjazna i łatwa w obsłudze dla Ciebie",
             "category": "ogrodnicze",
             "mainImage": "/assets/ogrodnicze/kosa_545rx/545rx.webp",
             "images": [{
@@ -172,6 +182,11 @@
             }],
             "pricePerDay": 100,
             "deposit": 300,
+            "benefits": [
+                "Silnik x-Torq® zapewnia dużą moc i zarazem oszczędność paliwa",
+                "Ergonomiczny uchwyt z możliwością regulacji",
+                "Szybkie wysuwanie żyłki Tap'n Go"
+            ],
             "parameters": {
                 "Szerokość koszenia": "49cm",
                 "Moc silnika": "2.85 KM",
@@ -192,6 +207,7 @@
             "id": "glebogryzarka",
             "name": "Glebogryzarka",
             "description": "Glebogryzarka HSDT1050 to spalinowe urządzenie do pielęgnacji zarówno przydomowego ogródka, działki jak i podwórka. Idealny dla osób poszukujących sprzętu do spulchniania i wyrównywania dużych powierzchni, zwłaszcza trudnej w uprawie zbitej i gliniastej gleby. Wyposażona w mocny silnik spalinowy gwarantujący długotrwałą i wydajną pracę.",
+            "shortDescription": "Glebogryzarka HSDT1050 to spalinowe urządzenie do pielęgnacji zarówno przydomowego ogródka, działki jak i podwórka.",
             "category": "ogrodnicze",
             "mainImage": "/assets/ogrodnicze/glebogryzarka/4_max.jpg",
             "images": [{
@@ -217,6 +233,10 @@
             ],
             "pricePerDay": 100,
             "deposit": 300,
+            "benefits": [
+                "Regulowany uchwyt",
+                "Obudowa chroni wnętrze urządzenia przed uszkodzeniami oraz warunkami atmosferycznymi"
+            ],
             "parameters": {
                 "Szerokośc robocza": "50cm",
                 "Moc silnika": "7 KM",
@@ -235,7 +255,7 @@
             "id": "mlot_udarowy_bosch",
             "name": "Młot udarowy Bosch",
             "description": "Młot udarowy GSH 11 E to specjalista do kucia oraz prac wyburzeniowych. Sprawdzi się doskonale podczas wielu prac budowlanych. Posiada funkcje wiercenia, wiercenia z udarem i dłutowania, dzięki czemu młot ma szerokie zastosowanie. Ekstremalna energia udaru (16,8 J) zapewnia bardzo dużą wydajność pracy. Dodatkowa rękojeść zapewnia pewne i wygodne trzymanie urządzenia zwiększając kontrolę nad młotem w trakcie ciężkich prac. Elektronarzędzie znajduje się w wygodnej, solidnej walizce, dzięki której transport i przechowywanie urządzenia nie sprawia trudności. ",
-            "shortDescription": "Młot udarowy GSH 11 E to specjalista do kucia oraz prac wyburzeniowych. Sprawdzi się doskonale podczas wielu prac budowlanych z mocą 1500W",
+            "shortDescription": "Młot udarowy GSH 11 E to specjalista do kucia oraz prac wyburzeniowych. Sprawdzi się doskonale podczas wielu prac budowlanych z mocą 1500W.",
             "category": "budowlane",
             "widget": "acd2783c-327d-478b-9015-56d10186f918",
             "mainImage": "/assets/budowlane/mlot_gsh11e/Bosch_GSH_11_E_Mlot_udarowy_1.jpg",
@@ -278,7 +298,8 @@
         {
             "id": "przecinarka_husqvarna_k970",
             "name": "Przecinarka Husqvarna K970",
-            "description": "Przecinarka K 970 to wydajne elektronarzędzie do cięcia materiałów i powierzchni o największej głębokości cięcia wynoszącej aż 145 mm. Znakomite urządzenie przystosowane do cięcia żelbetu, pustaków ceramicznych, silikatowych, bloczków fundamentowych i kamienia. Przycinarka przydaje się także do wycinania dylatacji w posadzkach, wycinania przejść instalacyjnych w ścianach oraz przy pracach rozbiórkowych. Wytrzymała, niezawodna, lekka i potężna ― przecinarka K 970 gotowa jest wykonać każde zadanie. To najlepszy wybór, gdy potrzebna jest uniwersalna przecinarka, radząca sobie w najtrudniejszych warunkach.",
+            "description": "Przecinarka K 970 to wydajne elektronarzędzie do cięcia materiałów i powierzchni o największej głębokości cięcia wynoszącej aż 145 mm. Znakomite urządzenie przystosowane do cięcia żelbetu, pustaków ceramicznych, silikatowych, bloczków fundamentowych i kamienia. Przycinarka przydaje się także do wycinania dylatacji w posadzkach, wycinania przejść instalacyjnych w ścianach oraz przy pracach rozbiórkowych. Wytrzymała, niezawodna, lekka i potężna ― przecinarka K 970 gotowa jest wykonać każde zadanie. To najlepszy wybór, gdy potrzebna jest uniwersalna przecinarka, radząca sobie w najtrudniejszych warunkach.",
+            "shortDescription": "Przecinarka K 970 to wydajne elektronarzędzie do cięcia materiałów i powierzchni o największej głębokości cięcia wynoszącej aż 145 mm.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/przecinarka_k970/Przecinarka-spalinowa-K970-Husqvarna.png",
             "images": [{
@@ -292,6 +313,10 @@
             ],
             "pricePerDay": 200,
             "deposit": 500,
+            "benefits": [
+                "System cięcia na mokro zapewnia doskonałą eliminację pyłu. Zawór progresywny umożliwia dokładną regulacjęilości wody, skutecznie wiążąc pył i zmniejszając ilość ścieru",
+                "SmartCarb to zintegrowany automatyczny system kompensacji spadku przepustowości filtra, pozwala zachować dużą moc i zmniejsza zużycie paliwa"
+            ],
             "parameters": {
                 "Moc wyjściowa": "6.5KM",
                 "Rodzaj silnika": "Silnik dwusuwowy",
@@ -311,6 +336,7 @@
             "id": "nozyce_do_zywoplotu_husqvarna",
             "name": "Nożyce do żywopłotu Husqvarna",
             "description": "Nożyce spalinowe do żywopłotu 122HD60 są niezwykle wydajne, dzięki dużej mocy silnika. Są wygodniejsze w porównaniu z modelami elektrycznymi, ponieważ nie posiadają kabla zasilającego, który ogranicza pole manewru na dużych powierzchniach ogrodowych. Idealnie sprawdzają się w różnych warunkach, także na mokrych liściach. Jest bardzo wydajny i szybko działa zarówno na iglakach, krzewach czy drzewach liściastych.",
+            "shortDescription": "Nożyce spalinowe do żywopłotu 122HD60 są niezwykle wydajne, dzięki dużej mocy silnika.",
             "category": "ogrodnicze",
             "mainImage": "/assets/ogrodnicze/nozyce_do_zywoplotu_husqvarna/nozyce_do_zywoplotu_husqvarna_1.jpg",
             "images": [{
@@ -324,6 +350,11 @@
             ],
             "pricePerDay": 70,
             "deposit": 300,
+            "benefits": [
+                "Długie ostrze zapewniające łatwiejszy dostęp",
+                "Wielopozycyjny uchwyt ułatwiający cięcie boków oraz góry żywopłotu",
+                "Opór linki rozrusznika ograniczony o 40% dla szybkiego uruchomienia maszyny minimalnym wysiłkiem"
+            ],
             "parameters": {
                 "Prędkość robocza": "4050 cięcia/min",
                 "Maksymalna średnica gałęzi": "20mm",
@@ -345,6 +376,7 @@
             "id": "dmuchawa_spalinowa_husqvarna",
             "name": "Dmuchawa spalinowa Husqvarna",
             "description": "Dmuchawa plecakowa 350BT to wydajne urządzenie przeznaczone do zdmuchiwania liści, sypkiego śniegu, śmieci i innych zanieczyszczeń z terenów posesji, chodników oraz parkingów. Gwarantuje wysoką wydajność urządzenia oraz prędkość wylotową powietrza, dzięki czemu praca dmuchawą jest efektywna i komfortowa. Dmuchawa wyposażona w wygodną i wyściełaną uprząż z pasem redukującym obciążenie ciała.  ",
+            "shortDescription": "Dmuchawa plecakowa 350BT to wydajne urządzenie przeznaczone do zdmuchiwania liści, sypkiego śniegu, śmieci i innych zanieczyszczeń z terenów posesji, chodników oraz parkingów.",
             "category": "ogrodnicze",
             "mainImage": "/assets/ogrodnicze/dmuchawa_spalinowa_husqvarna/dmuchawa_spalinowa_husqvarna_1.jpg",
             "images": [{
@@ -363,6 +395,11 @@
             ],
             "pricePerDay": 90,
             "deposit": 300,
+            "benefits": [
+                "Regulowane uchwyty zapewniające doskonały komfort pracy i dopasowanie do użytkownika",
+                "Mocny i łatwy w uruchomieniu silnik X-Torq® w połączeniu z solidną konstrukcjąłopatek wentylatora zapewnia dużą prędkość oraz przepływ wydmuchu",
+                "Wygodna wyściełana uprząż z pasem redukującym obciążenie ciała"
+            ],
             "parameters": {
                 "Rodzaj dyszy": "okrągła",
                 "Prędkość powietrza": "80.47m/s",
@@ -383,6 +420,7 @@
             "id": "stopa_wibracyjna_cedrus",
             "name": "Stopa wibracyjna Cedrus",
             "description": "Stopa wibracyjna ST01 to wysokiej klasy ubijak spalinowy, przeznaczony do pracy w trudnych warunkach terenowych. Można go używać́ podczas wykonywania robót ziemnych takich jak: zagęszczanie dna wykopów, przywracanie terenu do stanu sprzed rozpoczęcia robót , a także stabilizowania gruntu pod prace brukarskie i inne utwardzenia. Stopa szerokości 28 cm pozwala dotrzeć w miejsca trudnodostępne i skutecznie je zagęścić.",
+            "shortDescription": "Stopa wibracyjna ST01 to wysokiej klasy ubijak spalinowy, przeznaczony do pracy w trudnych warunkach terenowych.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/stopa_wibracyjna_cedrus/stopa_wibracyjna_cedrus_1.png",
             "images": [{
@@ -401,6 +439,11 @@
             ],
             "pricePerDay": 110,
             "deposit": 300,
+            "benefits": [
+                "Koła transportowe pozwalające na wygodny i łatwiejszy transport",
+                "Ergonomiczny uchwyt",
+                "Duża wydajność pracy, zmniejszając czas na prawidłowe przygotowanie/ zagęszczenie podłoża"
+            ],
             "parameters": {
                 "Liczba uderzeń": "700/min",
                 "Wysokość skoku": "65mm",
@@ -424,6 +467,7 @@
             "id": "nagrzewnica_olejowa_30kw",
             "name": "Nagrzewnica olejowa 30kW",
             "description": "Nagrzewnica olejowa doskonale sprawdzi się podczas ogrzewania warsztatów, hal, magazynów, powierzchni przed wykończeniem itp. Nagrzewnica wyposażona jest w cyfrowy termostat z płynną regulacją temperatury. Zapewnia on wysoką wydajność cieplną i oszczędność paliwa. Po uzyskaniu wskazanej temperatury nastąpi automatyczne wyłączenie nagrzewnicy, a ponowny rozruch nastąpi, gdy temperatura spadnie poniżej temperatury ustawionej na wyświetlaczu. Komin do odprowadzania spalin jest zaletą nagrzewnicy, ze względu na wydmuchiwanie ogrzanego powietrza, które jest całkowicie wolne od dymu. ",
+            "shortDescription": "Nagrzewnica olejowa doskonale sprawdzi się podczas ogrzewania warsztatów, hal, magazynów, powierzchni przed wykończeniem itp. Nagrzewnica wyposażona jest w cyfrowy termostat z płynną regulacją temperatury.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/nagrzewnica_olejowa_30kw/nagrzewnica_olejowa_30kw_1.jpg",
             "images": [{
@@ -450,6 +494,11 @@
             ],
             "pricePerDay": 80,
             "deposit": 300,
+            "benefits": [
+                "Wbudowany wziernik informuje o stanie poziomu paliwa",
+                "Duże koła jezdne zapewniają łatwiejszy i komfortowy transport urządzenia",
+                "Automatyczny palnik olejowy"
+            ],
             "parameters": {
                 "Moc": "30kW",
                 "Zaisilanie": "230V/ 50Hz",
@@ -470,6 +519,7 @@
             "id": "przecinarka_do_styropianu",
             "name": "Przecinarka do styropianu MDS 32/140",
             "description": "Maszyna do cięcia styropianu to solidne i najbardziej zaawansowane urządzenie do cięcia styropianu jak i styroduru. Model ten cechuje niezawodność, prostota obsługi i funkcjonalność, w każdych warunkach. W przypadku naszej maszyny do cięcia styropianu i styroduru został praktycznie do zera wyeliminowany odpad powstały podczas obróbki materiału. Jeżeli potrzebujesz precyzyjnego cięcia jak i dopasowania płyty styropianu do rury, przejścia w ścianie itp. to ta maszyna została stworzona właśnie na Twoje potrzeby. ",
+            "shortDescription": "Maszyna do cięcia styropianu to solidne i najbardziej zaawansowane urządzenie do cięcia styropianu jak i styroduru.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/przecinarka_do_styropianu/przecinarka_do_styropianu_1.jpg",
             "images": [{
@@ -489,6 +539,11 @@
             ],
             "pricePerDay": 60,
             "deposit": 300,
+            "benefits": [
+                "Wyposażona w śruby zaciskowe prowadnicy umożliwiające blokadę ruchomego ramienia na żądanej wysokości w zakresie od 0 do 32cm, co pozwala na ścinanie płyt również z grubości",
+                "możliwe ścinanie płyty z klina (do 10cm różnicy na długości płyty)",
+                "Możliwość przełożenia drutu do cięcia w pionie, dzięki czemu z płyty można wyciąć różne kształty"
+            ],
             "parameters": {
                 "Moc urządzenia": "200W",
                 "Zaisilanie": "230V/ 50Hz",
@@ -509,6 +564,7 @@
             "id": "przecinarka_do_plytek_reczna",
             "name": "Przecinarka do płytek ręczna Sigma",
             "description": "Sigma ART. to ręczna przecinarka przeznaczona głównie do płytek o efektywnej długości cięcia wynoszącej aż 102cm. Charakteryzuje się bardzo wytrzymałą i solidną konstrukcją. Proces cięcia odbywa się poprzez pociągnięcie (do siebie) głowicy z nożem. Nasza przecinarka pozwala na regulację wysokości prowadnicy, dzięki czemu możliwe jest cięcie bardzo grubych płytek. Ponadto maszynka posiada specjalny ogranicznik, który pozwala na powtarzalne cięcie. Zaletą tej przecinarki jest możliwość cięcia pod kątem w zakresie +45° do -45°.",
+            "shortDescription": "Sigma to ręczna przecinarka przeznaczona głównie do płytek o efektywnej długości cięcia wynoszącej aż 102cm.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/przecinarka_do_plytek_reczna/przecinarka_do_plytek_reczna_1.jpg",
             "images": [{
@@ -531,6 +587,11 @@
             ],
             "pricePerDay": 80,
             "deposit": 300,
+            "benefits": [
+                "Możliwość złożenia przecinarki na potrzeby transportu",
+                "Stopki o dużej średnicy pokryte gumą antypoślizgową zapewniają stabilność urządzenia",
+                "Skala metryczna z miarką boczną i przekątną oraz ekierką możliwą do użycia zarówno z lewej jak i prawej strony"
+            ],
             "parameters": {
                 "Efektywna długość cięcia": "102cm",
                 "Przekątna cięcia": "72cm",
@@ -550,6 +611,7 @@
             "id": "osuszacz_master_dh752",
             "name": "Osuszacz Master DH752",
             "description": "Zbyt wysoka wilgotność powietrza może spowodować wiele szkód, nie tylko w domu ale również w magazynie, garażu czy szatni w hali sportowej. Wilgoć może zniszczyć przechowywane w nich przedmioty, instalację elektryczną i generować ogromne straty, a dodatkowo sprzyja rozwojowi toksycznych dla ludzi grzybów i pleśni. Osuszacz powietrza DH 752 to także niezbędne urządzenie jeśli zależy Ci na jak najszybszym przeprowadzeniu prac remontowych albo konserwatorskich. Wysoka wydajność sprawia, że idealnie sprawdzi się w osuszaniu powierzchni po zalaniu (nawet do 250m).   Ze względu na duża wydajność i możliwość obsłużenia pomieszczeń o kubaturze do aż 700 m3 model ten doskonale sprawdzi się w magazynach, halach produkcyjnych, hotelach, oczyszczalniach oraz przy pracach budowlanych i remontowych. Może pracować przez całą dobę, co znacznie przyśpieszy i usprawni pracę. Wysuszy cement, farby i lakiery nawet na dużych powierzchniach.",
+            "shortDescription": "Osuszacz powietrza to niezbędne urządzenie jeśli chcesz się pozbyć wilgoci, nie tylko z domu ale również z garażu, magazynu, itp.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/osuszacz_master_dh752/osuszacz_master_dh752_1.jpg",
             "images": [{
@@ -564,6 +626,11 @@
             ],
             "pricePerDay": 70,
             "deposit": 300,
+            "benefits": [
+                "Wysoka wydajność urządzenia- do 46l na dobę",
+                "Osuszacz posiada funkcję stałego odprowadzenia wody i może ona być od razu spuszczana do kanalizacji. Przy braku możliwości odprowadzenia wody dołączono 5 litrowy zbiornik",
+                "wbudowany higrostat sprawia, że urządzenie automatycznie się załącza, gdy określony poziom wilgotności zostanie ponownie przekroczony"
+            ],
             "parameters": {
                 "Zakres temperatury pracy": "5-35 st. C",
                 "Wydajnośc osuszania": "45.6l/24h",
@@ -586,6 +653,7 @@
             "id": "podnosnik_plyt_g_k",
             "name": "Podnośnik płyt g-k",
             "description": "Podnośnik płyt gipsowych przeznaczony jest do montażu paneli na suficie, a dzięki obrotowemu systemowi także na ścianach bocznych oraz skosach sufitowych. Podnośnik idealnie nadaję do prac instalacyjnych i wykończeniowych zarówno dla firm jak i osób, które samodzielnie chcą wykonać remont w mieszkaniu. Podnośnik posiada mocną stalową konstrukcje, która bez problemu poradzi sobie z podwieszaniem płyt gipsowych. Stabilne ramię wykonane z czworokątnego pręta gwarantuje ergonomiczną i bezpieczną pracę.",
+            "shortDescription": "Podnośnik płyt gipsowych przeznaczony jest do montażu paneli na suficie, a dzięki obrotowemu systemowi także na ścianach bocznych oraz skosach sufitowych.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/podnosnik_plyt_g-k/podnosnik_plyt_g-k_1.jpg",
             "images": [{
@@ -600,6 +668,11 @@
             ],
             "pricePerDay": 70,
             "deposit": 300,
+            "benefits": [
+                "Stojak wyposażony jest w podstawę z 3 kołami z możliwośćią blokady zapewniającą stabilność, a jednocześnie mobilność urządzenia",
+                "Podnośnik daje możliwość wykonania prac wykończeniaowych w pojedynkę",
+                "Łatwy do transportu dzięki możliwości składania"
+            ],
             "parameters": {
                 "Maksymalny pionowy wysięg": "350cm",
                 "Minimalny pionowy wysięg": "140cm",
@@ -622,6 +695,7 @@
             "id": "odkurzacz_pioracy_karcher_puzzi",
             "name": "Odkurzacz piorący Karcher Puzzi 10/1",
             "description": "Urządzenie dokładnie czyści wykładziny usuwając nieprzyjemny zapach i przywracając jej odnowiony i świeży wygląd. W zależności od stopnia zabrudzenia powierzchni może pracować w jednym lub w dwóch przejściach roboczych. Pozostawia jedynie niewielką wilgoć resztkową, dzięki czemu powierzchnię można użytkować w krótkim czasie po przeprowadzeniu prac czyszczących. Doskonale sprawdza się w hotelach, biurowcach, firmach zajmujących się przewozem osób oraz u osób, które lubią dbać o swój samochód. Dzięki bogatemu wyposażeniu urządzenie można stosować zarówno do czyszczenia wykładzin dywanowych jak i tapicerki samochodowej, meblowej czy podłóg twardych.",
+            "shortDescription": "Urządzenie dokładnie czyści wykładziny i tapicerki usuwając nieprzyjemny zapach i przywracając im odnowiony i świeży wygląd.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/odkurzacz_pioracy_karcher_puzzi/odkurzacz_pioracy_karcher_puzzi_1.jpg",
             "images": [{
@@ -636,6 +710,11 @@
             ],
             "pricePerDay": 70,
             "deposit": 300,
+            "benefits": [
+                "Elastyczna dysza podłogowa wyposażona w listwy, które idealnie dopasują się do czyszczonych powierzchni",
+                "Wygodny włącznik został przystosowany do obługi stopą, dzięki czemu osoba obsługująca nie musi się schylać, co daje większy komfort pracy",
+                "Zbiornik na brudną wodę można łatwo i szybko wyjąć w celu opróżnienia, a dzięki przezroczystej pokrywie łatwo kontrolować poziom wody"
+            ],
             "parameters": {
                 "Wydajność powierzchniowa": "20-25m2/h",
                 "Zbiornik wody czystej/brudnej": "10/9l",
@@ -657,6 +736,7 @@
             "id": "pilarka_spalinowa_husqvarna_435ii",
             "name": "Pilarka spalinowa Husqvarna 435II",
             "description": "Piła spalinowa 435 II to lekka, wydajna i uniwersalna pilarka, idealna dla użytkowników wymagających maszyny łatwo uruchamianej i poręcznej.",
+            "shortDescription": "Piła spalinowa 435 II to lekka, wydajna i uniwersalna pilarka, idealna dla użytkowników wymagających maszyny łatwo uruchamianej i poręcznej.",
             "category": "ogrodnicze",
             "mainImage": "/assets/ogrodnicze/pilarka_spalinowa_husqvarna_435ii/pilarka_spalinowa_husqvarna_435ii_1.jpg",
             "images": [{
@@ -665,6 +745,11 @@
             }],
             "pricePerDay": 70,
             "deposit": 300,
+            "benefits": [
+                "Silnik X-Torq® zapewniający mniejsze zużycie paliwa oraz zmniejszoną emisję zanieczyszczeń",
+                "Wyogodnie wyściełane uchwyty, ergonomiczna manetka gazu oraz asymetryczny uchwyt",
+                "Szybka regulacja łańcucha poprzez umieszczony z boku napinacz"
+            ],
             "parameters": {
                 "Moc wyjściowa": "2.1KM",
                 "Długość prowadnicy": "38cm",
@@ -686,6 +771,7 @@
             "id": "pilarka_spalinowa_husqvarna_450ii",
             "name": "Pilarka spalinowa Husqvarna 450II",
             "description": "Łatwa do uruchomienia, prosta w obsłudze – może z łatwością być użyta do pracy przy drewnie opałowym jak i ścince drzew. Odpowiednia dla tych, którzy oczekują od maszyny profesjonalnej jakości. Łatwy rozruch również przy słabszym pociągnięciu za uchwyt rozrusznika i zatrzaskowe korki wlewu paliwa. Wyłącznik powracający automatycznie do pozycji wyjściowej oraz widoczny poziom paliwa ułatwiają obsługę pilarki. Posiada funkcję Smart Start® oraz pompkę paliwa, które zapewniają łatwe uruchamianie maszyny za każdym razem.",
+            "shortDescription": "Łatwa do uruchomienia, prosta w obsłudze – może z łatwością być użyta do pracy przy drewnie opałowym jak i ścince drzew.",
             "category": "ogrodnicze",
             "mainImage": "/assets/ogrodnicze/pilarka_spalinowa_husqvarna_450ii/pilarka_spalinowa_husqvarna_450ii_1.jpg",
             "images": [{
@@ -694,6 +780,11 @@
             }],
             "pricePerDay": 90,
             "deposit": 300,
+            "benefits": [
+                "Silnik X-Torq® zapewniający mniejsze zużycie paliwa oraz zmniejszoną emisję zanieczyszczeń",
+                "Funkcja LowVib- skuteczne tłumiki drgań pochłaniające wibracje, oszczędzające ręce i dłonie użytkownika",
+                "Bezwładnościowy hamulec piły łańcuchowej chroni użytkownika przed obrażeniami w krytycznym momencie odbicia pilarki"
+            ],
             "parameters": {
                 "Moc wyjściowa": "3.2KM",
                 "Długość prowadnicy": "38cm",
@@ -713,6 +804,7 @@
             "id": "pilarka_spalinowa_husqvarna_t435",
             "name": "Pilarka spalinowa Husqvarna T435 (gałęziówka)",
             "description": "Pilarka T435 do kompleksowej i wygodnej pielęgnacji drzew. Lekka pilarka o dużej mocy przeznaczona do przycinania drzew zarówno z ziemi jak i z podnośnika. Niska waga i dobrze wyważony korpus ułatwiają pracę, zapewniając ergonomiczne warunki dla użytkownika.",
+            "shortDescription": "Pilarka T435 do kompleksowej i wygodnej pielęgnacji drzew.",
             "category": "ogrodnicze",
             "mainImage": "/assets/ogrodnicze/pilarka_spalinowa_husqvarna_t435/pilarka_spalinowa_husqvarna_t435_1.jpg",
             "images": [{
@@ -726,6 +818,11 @@
             ],
             "pricePerDay": 80,
             "deposit": 300,
+            "benefits": [
+                "Silnik X-Torq® zapewniający mniejsze zużycie paliwa oraz zmniejszoną emisję zanieczyszczeń",
+                "LowVib, czyli skuteczne tłumiki drgań pochłaniające wibracje, oszczedzając ręce i dłonie użytkownika",
+                "Boczny napinacz umożliwia szybkie i wygodne napinanie łańcucha"
+            ],
             "parameters": {
                 "Moc wyjściowa": "2KM",
                 "Długość prowadnicy": "35cm",
@@ -744,6 +841,7 @@
             "id": "zageszczarka_cedrus_96kg",
             "name": "Zagęszczarka Cedrus 96kg",
             "description": "Zagęszczarka ZG01 to lekka, wszechstronna oraz mobilna maszyna, która może być używana przy różnego rodzaju pracach budowlanych, drogowych czy ogrodowych, tj.: układanie kostki brukowej, wykonywanie podbudowy pod płyty fundamentowe, wjazd do garażu, ciągi komunikacyjne, chodniki, parkingi, pielęgnacja terenów zielonych i wiele innych. To wyjątkowa na rynku zagęszczarka zapewniająca pełną mobilność podczas prac jak i jej transportu. Kompaktowa budowa, duża zwrotność, składana rączka oraz koła transportowe pozwalają na swobodne przemieszczanie maszyny oraz dostęp nawet do najtrudniejszych zakątków. Ergonomiczna budowa pozytywnie wpływa na komfort pracy operatora nawet przez wiele godzin.",
+            "shortDescription": "Zagęszczarka ZG01 to lekka, wszechstronna oraz mobilna maszyna, która może być używana przy różnego rodzaju pracach budowlanych, drogowych czy ogrodowych.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/zageszczarka_cedrus/ZG01_1.jpg",
             "images": [{
@@ -761,6 +859,12 @@
             ],
             "pricePerDay": 100,
             "deposit": 300,
+            "benefits": [
+                "Wysokiej jakości silnik Loncin- z czujnikiem oleju",
+                "Mocna, sztywna konstrukcja",
+                "Tłumienie wibracji, dzięki 3-punktowemu mocowaniu",
+                "Koła transportowe oraz mata silikonowa- stanowią wyposażenie standardowe"
+            ],
             "parameters": {
                 "Siła zagęszczania": "20kN",
                 "Wymiary płyty": "56 x 52cm",
@@ -783,6 +887,7 @@
             "id": "wiertnica",
             "name": "Wiertnica",
             "description": "Wiertnica NEA 610E to urządzenie idealne do wykonywania otworów w glebie do różnych zastosowań, tj.: wznoszenie ogrodzeń, zalesianie, palowanie, sadzenie drzewek owocowych czy krzewów ogrodowych, a także do pracy w szklarniach. Wiertnice do ziemi są niezbędne w gospodarstwach rolnych, sadowniczych, szkółkach, leśnictwie, placach budowy, a także u dbających o wygląd swojego ogrodu czy działki.",
+            "shortDescription": "Wiertnica NEA 610E to urządzenie idealne do wykonywania otworów w glebie do różnych zastosowań, tj.: wznoszenie ogrodzeń, zalesianie, palowanie, sadzenie drzewek owocowych czy krzewów ogrodowych.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/wiertnica/1.jpg",
             "images": [{
@@ -796,6 +901,10 @@
             ],
             "pricePerDay": 100,
             "deposit": 300,
+            "benefits": [
+                "Przycisk sterowania umieszczony na jednym uchwycie, co sprawia, że jest to idealne rozwiązanie do prac indywidualnych",
+                "Unikalna konstruckja przekładni wyprodukowana przy najwyższej jakości materiałów, dzięki czemu nasza wiertnica sprosta nawet najtrudniejszym zadaniom."
+            ],
             "parameters": {
                 "Moc": "3.8KM",
                 "Pojemność silnika": "57.9cm3",
@@ -812,36 +921,7 @@
 
 
 
-        {
-            "id": "wertykulator_husqvarna",
-            "name": "Wertykulator Husqvarna",
-            "description": "Wertykulator S 500 Pro to wytrzymały i ergonomiczny sprzęt przeznaczony do intensywnej i profesjonalnej pracy. Niewielki rozmiar oraz mocny silnik  sprawiają, że można go używać zarówno na dużych otwartych przestrzeniach jak i na mniejszych przydomowych trawnikach czy ogrodach. Niezastąpiony przy właściwej pielęgnacji trawników. Dzięki niemu wyczeszesz trawnik z liści oraz chwastów, a także obrobisz darninę i przyczynisz się do regeneracji trawnika.",
-            "category": "ogrodnicze",
-            "mainImage": "/assets/ogrodnicze/wertykulator_husqvarna/Wertykulator-S500-PRO-Husqvarna_1.png",
-            "images": [{
-                    "original": "/assets/ogrodnicze/wertykulator_husqvarna/Wertykulator-S500-PRO-Husqvarna_1.png",
-                    "thumbnail": "/assets/ogrodnicze/wertykulator_husqvarna/Wertykulator-S500-PRO-Husqvarna_1.png"
-                },
-                {
-                    "original": "/assets/ogrodnicze/wertykulator_husqvarna/Wertykulator-S500-PRO-Husqvarna_2.webp",
-                    "thumbnail": "/assets/ogrodnicze/wertykulator_husqvarna/Wertykulator-S500-PRO-Husqvarna_2.webp"
-                }
 
-            ],
-            "pricePerDay": 120,
-            "deposit": 300,
-            "parameters": {
-                "Moc": "6.1KM",
-                "Szerokość robocza": "50cm",
-                "Głębokość robocza": "0.5cm",
-                "Typ noży": "Noże bijakowe",
-                "Waga": "65kg"
-
-            },
-            "files": [
-                ""
-            ]
-        },
 
 
 
@@ -850,6 +930,7 @@
             "id": "bagaznik_interpack_duo",
             "name": "Bagażnik InterPack Duo",
             "description": "Bagażnik rowerowy na hak Inter Pack Duo to solidna platforma pozwalająca przewieźć 2 rowery. Montaż platformy Inter Pack Duo jest prosty i intuicyjny. Funkcja odchylania pozwala na swobodny dostęp do bagażnika auta, nawet z zamontowanymi rowerami. Bagażnik na hak Inter Pack Duo to solidna, wytrzymała konstrukcja wykonana ze stali. System montażu do ramy roweru pokryte są gumowa powłoką, która zabezpiecza powierzchnię ramy roweru przed uszkodzeniem. Platforma posiada zabezpieczenie w postaci zamków, które chronią zarówno bagażnik jak i rowery przed kradzieżą. Maksymalna szerokość opony, która mieści się w rynny to 2.35 cala.",
+            "shortDescription": "Bagażnik rowerowy na hak Inter Pack Duo to solidna platforma pozwalająca przewieźć 2 rowery.",
             "category": "bagazniki",
             "mainImage": "/assets/bagazniki/bagaznik_interpack_duo/bagaznik_interpack_duo_1.jpg",
             "images": [{
@@ -894,6 +975,7 @@
             "id": "bagaznik_interpack_trio",
             "name": "Bagażnik InterPack Trio",
             "description": "Bagażnik rowerowy na hak Inter Pack Trio to solidna platforma pozwalająca przewieźć 3 rowery. Montaż platformy Inter Pack Trio jest prosty, intuicyjny. Funkcja odchylania pozwala na swobodny dostęp do bagażnika auta, nawet z zamontowanymi rowerami. Bagażnik na hak Inter Pack Trio to solidna, wytrzymała konstrukcja wykonana ze stali. System montażu do ramy roweru pokryte są gumowa powłoką, która zabezpiecza powierzchnię ramy roweru  przed uszkodzeniem. Platforma posiada zabezpieczenie w postaci zamków, które chronią zarówno bagażnik jak i rowery przed kradzieżą. Maksymalna szerokość opony, która mieści się w rynny to 2.35 cala.",
+            "shortDescription": "Bagażnik rowerowy na hak Inter Pack Trio to solidna platforma pozwalająca przewieźć 3 rowery.",
             "category": "bagazniki",
             "mainImage": "/assets/bagazniki/bagaznik_interpack_trio/bagaznik_interpack_trio_1.jpg",
             "images": [{
@@ -942,6 +1024,7 @@
             "id": "bagaznik_interpack_quattro",
             "name": "Bagażnik InterPack Quattro",
             "description": "Bagażnik rowerowy na hak Inter Pack Quattro to solidna platforma pozwalająca przewieźć 4 rowery. Montaż platformy Inter Pack Quattro jest prosty, intuicyjny. Funkcja odchylania pozwala na swobodny dostęp do bagażnika auta, nawet z zamontowanymi rowerami. Bagażnik na hak Inter Pack Quattro to solidna, wytrzymała konstrukcja wykonana ze stali. System montażu do ramy roweru pokryte są gumowa powłoką, która zabezpiecza powierzchnię ramy roweru przed uszkodzeniem. Platforma posiada zabezpieczenie w postaci zamków, które chronią zarówno bagażnik jak i rowery przed kradzieżą. Maksymalna szerokość opony, która mieści się w rynny to 2.35 cala.",
+            "shortDescription": "Bagażnik rowerowy na hak Inter Pack Quattro to solidna platforma pozwalająca przewieźć 4 rowery.",
             "category": "bagazniki",
             "mainImage": "/assets/bagazniki/bagaznik_interpack_quattro/bagaznik_interpack_quattro_1.jpg",
             "images": [{
@@ -990,6 +1073,7 @@
             "id": "odkurzacz_przemyslowy_karcher",
             "name": "Odkurzacz przemysłowy Karcher",
             "description": "Odkurzacz przymysłowy Karcher to wyjątkowo mocny i trwały, a przy tym niezawodny odkurzacz. Charakteryzuje się stosunkowo niskim zużyciem energii elektrycznej w stosunku do generowanej siły ssącej. WD6 P Premium posiada metalowy zbiornik na zanieczyszczenia oraz gniazdo do podłączania elektronarzędzi.",
+            "shortDescription": "Odkurzacz przymysłowy Karcher to wyjątkowo mocny i trwały, a przy tym niezawodny odkurzacz.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/odkurzacz_przemyslowy_karcher/odkurzacz_przemyslowy_karcher_1.jpg",
             "images": [{
@@ -1027,6 +1111,7 @@
             "id": "kosiarka_z_napedem",
             "name": "Kosiarka z napędem",
             "description": "Kosiarka spalinowa z napędem MasterCut jest wytrwałym narzędziem przeznaczonym do pracy i pielęgnacji każdego, nawet wymagającego ogrodu. Posiada wytrzymały silnik o pojemności 201 cm3, dzięki czemu odznacza się długą żywotnością, efektywnością i solidnością. Znosi długotrwałą pracę i różne warunki atmosferyczne. Dodatkowym atutem jest specjalny kształt noża zapewniający optymalne parametry cięcia, centralna regulacja wysokości koszenia oraz ergonomiczny uchwyt. Obudowa kosiarki została wykonana z wytrzymałego materiału, dzięki czemu jest trwała i doskonale chroni silnik. Wyposażono ją również w łożyskowane koła. Produkt firmy Master Cut wykonano z wysokiej jakości materiałów oraz przy użyciu nowoczesnych rozwiązań technologicznych, dlatego charakteryzuje się żywotnością, niezawodnością oraz odpornością.",
+            "shortDescription": "Kosiarka spalinowa z napędem MasterCut jest wytrwałym narzędziem przeznaczonym do pracy i pielęgnacji każdego, nawet wymagającego ogrodu.",
             "category": "ogrodnicze",
             "mainImage": "/assets/ogrodnicze/kosiarka_z_napedem/kosiarka_z_napedem_1.jpg",
             "images": [{
@@ -1061,6 +1146,7 @@
             "id": "przecinarka_do_plytek_stolowa",
             "name": "Przecinarka do płytek stołowa",
             "description": "Przecinarka elektryczna Hagen to zasilana elektrycznie napięciem 230V - przecinarka do glazury, o maksymalnej zdolności cięcia 102cm. Przecinarka jest przeznaczona do cięcia wzdłużnego oraz ukosowego płytek ceramicznych. Sprawdzi się przy remontach i lekkich pracach wykończeniowych. Przeznaczona do pracy na mokro. Posiada solidny stół o dużej powierzchni roboczej dla łatwego cięcia dużych elementów.",
+            "shortDescription": "Przecinarka elektryczna Hagen to zasilana elektrycznie napięciem 230V - przecinarka do glazury, o maksymalnej zdolności cięcia 102cm.",
             "category": "budowlane",
             "mainImage": "/assets/budowlane/przecinarka_do_plytek_stolowa/przecinarka_do_plytek_stolowa_1.jpg",
             "images": [{
