@@ -1,0 +1,14 @@
+#footer {
+    // height: 95vh;
+    // background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.4), hsla(0, 0%, 0%, 0.4)), url('../../public/assets/bumerang-bg.png');
+    // 
+    background-size: cover;
+    background-position: top;
+    // clip-path: polygon(0 0, 55% 0, 45% 100%, 0 100%);
+    border-top: 2px solid #e22658;
+
+    img {
+        width: 200px;
+        height: 100%;
+    }
+}

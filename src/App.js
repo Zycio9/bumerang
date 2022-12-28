@@ -16,6 +16,7 @@ import Offer from "./Pages/OfferPage"
 import Contact from "./Pages/ContactPage"
 import Page404 from "./Pages/Page404.js"
 
+import Prow from "./Pages/Prow.js"
 
 import Banner from "./Components/Banner"
 
@@ -78,6 +79,8 @@ function App() {
           <Route path="oferta" element={<Offer />} />
           <Route path="oferta/:categoryId" element={<CategoryTemplate />} />
           <Route path="oferta/:categoryId/:articleId" element={<ArticleTemplate />} />
+
+          <Route path="prow" element={<Prow />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </Container>

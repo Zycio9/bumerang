@@ -524,3 +524,12 @@ a:focus {
   height: 45px;
   transform: rotate(-40deg);
 }
+
+
+
+/* rządowe */
+
+.efr img {
+  max-height: 150px;
+  width: auto;
+}
