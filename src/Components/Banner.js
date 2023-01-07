@@ -90,8 +90,14 @@ const Banner = () => {
                     </h1>
 
                 </div>
-                <div class='icon-scroll'></div>
-                <div className="scrollbar"></div>
+                <a href="#welcome" className="scroll center-content scrollto">
+                    <div className="chevron"></div>
+                    <div className="chevron"></div>
+                    <div className="chevron"></div>
+                    <span className="text">Przewiń w dół</span>
+                </a>
+                {/* <div className='icon-scroll'></div>
+                <div className="scrollbar"></div> */}
             </div >
 
         </div >
