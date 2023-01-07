@@ -11,16 +11,16 @@ const Prow = () => {
     return (
         <Grid container>
             <Grid container item className='efr' style={{ marginBottom: '3rem' }}>
-                <Grid Item xs={3}>
+                <Grid item xs={3}>
                     <img src={ue} alt="Unia Europejska" />
                 </Grid>
-                <Grid Item xs={3}>
+                <Grid item xs={3}>
                     <img src={leader} alt="Leader" />
                 </Grid>
-                <Grid Item xs={3}>
+                <Grid item xs={3}>
                     <img src={drg} alt="Dolina rzeki grabi" />
                 </Grid>
-                <Grid Item xs={3}>
+                <Grid item xs={3}>
                     <img src={prow} alt="" />
                 </Grid>
             </Grid>
