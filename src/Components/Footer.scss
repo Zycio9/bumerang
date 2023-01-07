@@ -1,3 +1,5 @@
+@import '../variables.scss';
+
 #footer {
     // height: 95vh;
     // background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.4), hsla(0, 0%, 0%, 0.4)), url('../../public/assets/bumerang-bg.png');
@@ -5,10 +7,51 @@
     background-size: cover;
     background-position: top;
     // clip-path: polygon(0 0, 55% 0, 45% 100%, 0 100%);
-    border-top: 2px solid #e22658;
+    border-top: 2px solid $primary-color;
 
     img {
         width: 200px;
         height: 100%;
     }
+
+    a {
+        // text-decoration: underline;
+        transition: all .2s;
+
+        &:hover {
+
+            color: $primary-color;
+        }
+    }
+
+    .footer__left {
+        @media (min-width: 900px) {
+            order: 1;
+        }
+    }
+
+    .footer__center {
+        @media (min-width: 900px) {
+            order: 2;
+        }
+
+        & .tel {
+            font-size: 2.5rem;
+        }
+
+        & .address {
+            font-size: 1.5rem;
+            color: $primary-color;
+        }
+
+    }
+
+    .footer__right {
+
+        // color: lime;
+        @media (min-width: 900px) {
+            order: 3;
+        }
+    }
+
 }
