@@ -30,6 +30,9 @@ function ArticleTemplate() {
 
     const gallery = useRef(null);
 
+
+
+
     useEffect(() => {
         data.categories.forEach(c => {
             if (c.id.toLowerCase() === categoryId.toLowerCase()) {
@@ -149,8 +152,7 @@ function ArticleTemplate() {
                         <Grid item md={6}>
                             {article.widget ?
                                 <iframe src={`https://widget.zarezerwuj.pl/${article.widget}`}
-                                    seamless
-                                    id='iframe' />
+                                    id='iframe' title="Rezerwacja online" />
                                 :
                                 <>
                                     <Typography variant="h5">Placeholder... Nie ma podpiętego widgetu</Typography>
@@ -178,7 +180,7 @@ function ArticleTemplate() {
                                     <Typography variant="h2" color='primary'>Zalety</Typography>
                                     <ul className='articleTemplate___benefits'>
                                         {article.benefits.map((ben) => (
-                                            <li>{ben}</li>
+                                            <li key={ben}>{ben}</li>
                                         ))}
                                     </ul>
                                 </> : null}
