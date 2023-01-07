@@ -1,35 +1,41 @@
 .mega-menu {
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    box-shadow: #000 0px 22px 70px 4px;
+    box-shadow: #111 0px 50px 70px 1px;
 
-    &__tile {
-        font-size: 10rem;
 
-        &:hover img {
-            transform: scale(1.1);
-        }
-    }
-
+    & a:hover {}
 
     & img {
-        width: 100%;
-        height: 30vw;
+        border: 3px solid transparent;
+        background-image: linear-gradient(#333, #333),
+            linear-gradient(45deg, #e22658 0%, #333 30%, #333 70%,
+                #e22658 100%);
+        background-origin: border-box;
+        background-clip: padding-box,
+            border-box;
+        background-size: 200% 100%;
+        transition: background-position 0.4s ease-out;
+        background-position: 100% center;
+        display: block;
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 15px;
         object-fit: cover;
 
+        &:hover {
+            background-position: 0 0;
+        }
+
         @media screen and (min-width: 900px) {
-            height: 15vw;
+            // height: 15vw;
 
         }
     }
 
     & h2 {
         text-align: center;
-        ;
     }
-}
-
-.mega-menu__tile {
-    font-size: 10rem !important;
-    height: 100%;
 }

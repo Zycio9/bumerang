@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { AppBar, Box, Grid, Divider, Drawer, Typography, IconButton, List, ListItem, ListItemText, ListItemButton, Toolbar, Collapse } from '@mui/material';
@@ -9,7 +9,6 @@ import data from '../data.json'
 import Logo from '../images/bumerang_logo_white.png'
 
 import './NavBar.scss'
-
 
 
 const drawerWidth = 350;
@@ -68,7 +67,7 @@ const StyledMegaMenu = styled('div')(({ theme }) => ({
     // },
 
 }));
-console.log(data.categories)
+
 
 function Header(props) {
     const { window } = props;
@@ -213,13 +212,20 @@ function Header(props) {
                                                                 md={3}
                                                                 key={category.id}
                                                                 flexDirection="column"
-                                                                className='.mega-menu__tile'>
+                                                                className='mega-menu__tile'>
                                                                 <NavLink to={category.url}
                                                                     className={({ isActive }) =>
                                                                         isActive ? "active_link" : null
                                                                     }>
                                                                     <img src={category.menuImage} alt='' />
-
+                                                                    {/* <svg viewBox="0 0 220 220">
+                                                                        <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+                                                                        <text width="220">
+                                                                            <textPath alignmentBaseline="center" href="#curve">
+                                                                                {category.title}
+                                                                            </textPath>
+                                                                        </text>
+                                                                    </svg> */}
                                                                     <h2>{category.title}</h2>
                                                                 </NavLink>
                                                             </Grid>
