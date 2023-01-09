@@ -11,6 +11,9 @@
   background-position: 30% center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 .appbar {
   background: none;
@@ -122,7 +125,7 @@ a:focus {
 
 .content-wrap {
   padding: 1rem;
-  padding-bottom: 10rem;
+  padding-bottom: 20rem;
   /* Footer height */
 }
 
