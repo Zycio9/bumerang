@@ -11,7 +11,38 @@ const Start = () => {
         <>
 
 
-            <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae temporibus ut debitis! Nisi iure repellat qui voluptate, aliquam omnis quam ex sunt eum amet magnam voluptates modi officiis possimus iste, animi recusandae aspernatur saepe. Deleniti rem magnam commodi? Eaque commodi ut ipsa dolorum itaque voluptatibus iusto quisquam? Dignissimos aliquam expedita autem. Voluptates maxime autem odio! Vitae sequi similique numquam, adipisci accusantium quas officia asperiores nihil? Alias est, aut illum maxime, laborum, quasi nam iste recusandae libero qui dolorum molestias non. Perspiciatis labore officiis nemo explicabo voluptatem dolor dolorem, voluptate vitae blanditiis neque mollitia ea similique ab tempora. Ut quo sit, unde saepe aliquam officiis sint odio quae ullam cupiditate incidunt maxime ratione nihil facere maiores odit nulla laudantium blanditiis magnam velit voluptatum totam a sunt? Autem repellendus dignissimos alias asperiores quam amet veritatis cupiditate corrupti nobis impedit perspiciatis aperiam deleniti incidunt quod nesciunt magnam qui accusamus, eligendi, eveniet deserunt porro. Saepe, distinctio vel soluta accusamus quia voluptas tempora natus debitis, voluptatibus nesciunt iste voluptates molestiae dolorem. Id mollitia vero provident maxime. Amet, reiciendis sed temporibus, dolorum unde a, ipsa nostrum hic officia eius possimus adipisci molestias explicabo aliquam. Debitis assumenda nostrum quas est esse eum iure eos saepe obcaecati, dicta iste expedita ad quo quisquam alias veritatis sapiente numquam magni beatae accusamus veniam recusandae tempore quae! Perferendis, sed voluptatem! Illo sequi at cupiditate laborum error libero accusamus suscipit quaerat cum reprehenderit. Laboriosam deserunt asperiores hic quaerat obcaecati delectus odio optio nemo, harum omnis, sunt praesentium officia dolorem magnam adipisci inventore cum, repudiandae totam neque doloremque non aperiam? Laudantium rerum, repudiandae repellendus sunt porro esse adipisci doloremque distinctio quas consequuntur optio eaque possimus doloribus illum eligendi officiis similique id, qui ut. Aut accusamus adipisci beatae, sit cumque dolores, deserunt repellendus reiciendis corrupti dignissimos distinctio consectetur voluptatum consequuntur dolorum nobis libero. Nostrum dolores sunt laudantium et officia eaque modi sapiente, saepe pariatur veritatis facilis iusto porro corrupti praesentium ipsum voluptates excepturi in veniam maiores voluptate minima iure sit incidunt maxime? Et excepturi repudiandae amet, eum voluptatibus dolor, aliquam exercitationem molestiae quisquam sint labore fugit ipsum at fugiat tenetur quo, qui reiciendis error esse magnam corrupti neque molestias sequi perferendis! Temporibus delectus unde nostrum odio cum! Neque velit ab magnam dicta natus voluptate. Dolores placeat ab porro? Quisquam natus suscipit rerum dolor repellendus corrupti eveniet vel atque molestiae, blanditiis nulla, ipsa nam ab perspiciatis maiores id inventore! Rerum ducimus iste ipsum, quo eaque perspiciatis. Ut nostrum, nulla quas quasi tenetur sequi ducimus, iste facere porro cum, molestiae enim aperiam dolore rem? Officiis aut porro incidunt ipsam sit facilis earum voluptate quaerat quia, architecto beatae autem alias ducimus tempore, delectus soluta assumenda consectetur consequuntur cumque vero! Aspernatur blanditiis commodi quaerat dolor ipsam aliquam maiores rerum cumque earum soluta nesciunt dolore reiciendis repellat distinctio facere inventore, laborum sequi provident, fugiat velit at. Itaque a earum rerum eius in laborum voluptatum consequatur repudiandae placeat quam! Autem architecto repellendus animi perspiciatis omnis sunt nisi, deserunt dolorum ex sit laudantium consectetur, fugit velit, doloremque quisquam impedit unde recusandae.
+            <Typography id="welcome">
+                Jesteśmy po to, aby ułatwić Ci pracę.<br />
+                Planujesz porządki w ogrodzie?<br />
+                Brakuje Ci narzędzi lub sprzętu?<br />
+                Masz w planach przeprowadzkę i szukasz odpowiedniej przyczepy do transportu Twoich mebli?<br />
+                Wyjeżdżasz na wakacje i brakuje Ci miejsca w bagażniku?<br />
+                A może chcesz odnowić swoją działkę, dom lub mieszkanie, ale nie masz odpowiednich urządzeń?<br />
+                Rozwiążemy te i inne problemy!
+                <br />
+                <br />
+                W swojej ofercie posiadamy:<br />
+                - przyczepy samochodowe<br />
+                - lawety<br />
+                - przyczepy do przewozu motocykli<br />
+                - bagażniki samochodowe na rowery<br />
+                - sprzęt ogrodniczy (wertykulatory, glebogryzarki, rębaki do gałęzi, kosiarki, piły spalinowe, podkaszarki, nożyce do żywopłotu, dmuchawy)<br />
+                - sprzęt budowlany (zagęszczarki, wiertnice, nagrzewnice, piły do betonu, szlifierki do gładzi)<br />
+                i wiele, wiele innych...<br />
+                <br />
+                Wybierz to, czego potrzebujesz - możemy dostarczyć wybrany sprzęt pod wskazany adres lub możesz odebrać go osobiście.<br />
+                Nowoczesny, wysokiej jakości sprzęt - posiadamy nowe, zadbane i w pełni sprawne urządzenia.<br />
+                //import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';<br />
+
+                Nieważne która jest godzina - możesz wypożyczyć potrzebny Ci sprzęt o każdej porze.
+                //import AccessTimeIcon from '@mui/icons-material/AccessTime';
+
+                Potrzebujesz porady lub masz jakieś pytania? - skontaktuj się z nami pod nr tel…. lub fb….. lub…mail…
+            //import HandshakeIcon from '@mui/icons-material/Handshake';
+
+
+
+
             </Typography>
         </>
 

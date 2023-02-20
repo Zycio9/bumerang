@@ -11,12 +11,12 @@ import Footer from './Components/Footer';
 // pages
 import Start from "./Pages/StartPage"
 import About from "./Pages/AboutPage"
-import Rental from "./Pages/Rental"
 import Offer from "./Pages/OfferPage"
 import Contact from "./Pages/ContactPage"
 import Page404 from "./Pages/Page404.js"
 
 import Prow from "./Pages/Prow.js"
+import Regulamin from "./Pages/Regulamin.js"
 
 import Banner from "./Components/Banner"
 
@@ -81,6 +81,7 @@ function App() {
           <Route path="oferta/:categoryId/:articleId" element={<ArticleTemplate />} />
 
           <Route path="prow" element={<Prow />} />
+          <Route path="regulamin" element={<Regulamin />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </Container>

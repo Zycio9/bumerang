@@ -84,9 +84,9 @@ const Banner = () => {
                     <img className="parallax-img" src="/assets/2.png" alt="" />
                 </div>
                 <div className="parallax-copy">
-                    <h1 className="parallax-headline">Chwytliwy tekst<br></br>
-                        który powali<br></br>
-                        na kolana
+                    <h1 className="parallax-headline">Jesteśmy po to<br></br>
+                        aby ułatwić  <br></br>
+                        Ci pracę
                     </h1>
 
                 </div>
