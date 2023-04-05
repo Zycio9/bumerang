@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import "./Banner.scss"
+import { Link } from 'react-router-dom'
 const Banner = () => {
     const reff = useRef(null)
     // Resize the prototype to fit in the window
@@ -47,18 +48,18 @@ const Banner = () => {
         function onMouseMove(ev) {
             parallax(ev, parallaxLayer1, 1);
             parallax(ev, parallaxLayer2, 2);
-            parallax(ev, parallaxLayer3, 3);
+            // parallax(ev, parallaxLayer3, 3);
         };
 
         function parallax(ev, parallaxLayer, layer) {
-            var layerCoeff = 100 / layer,
-                screenWidth = screen.offsetWidth,
-                screenHeight = screen.offsetHeight,
-                parallaxLayerWidth = parallaxLayer.offsetWidth,
-                parallaxLayerHeight = parallaxLayer.offsetHeight,
-                mouseX = ev.pageX,
-                mouseY = ev.pageY,
-                x, y;
+            let layerCoeff = 100 / layer
+            let screenWidth = screen.offsetWidth
+            let screenHeight = screen.offsetHeight
+            let parallaxLayerWidth = parallaxLayer.offsetWidth
+            let parallaxLayerHeight = parallaxLayer.offsetHeight
+            let mouseX = ev.pageX
+            let mouseY = ev.pageY
+            let x, y;
 
             x = (screenWidth - parallaxLayerWidth) / 2 - (mouseX - (screenWidth / 2)) / layerCoeff;
             y = (screenHeight - parallaxLayerHeight) / 2 - (mouseY - (screenHeight / 2)) / layerCoeff;
@@ -77,18 +78,20 @@ const Banner = () => {
         <div className="screen" ref={reff}>
             <div className="parallax">
                 <div className="parallax-imgwrapper">
-                    <img className="parallax-img" src="/assets/1.png" alt="" />
+                    <img className="parallax-img" src="/assets/banner1.jpeg" alt="" />
                     <img className="parallax-img" src="//my-assets.netlify.com/codepen/dailyui-003/layer1@1.5x.png" alt="" />
                     {/* <img className="parallax-img" src="//my-assets.netlify.com/codepen/dailyui-003/layer2@1.5x.png" alt="" /> */}
                     {/* <img className="parallax-img" src="//my-assets.netlify.com/codepen/dailyui-003/layer3@1.5x.png" alt="" /> */}
-                    <img className="parallax-img" src="/assets/2.png" alt="" />
+                    {/* <img className="parallax-img" src="/assets/2.png" alt="" /> */}
                 </div>
                 <div className="parallax-copy">
                     <h1 className="parallax-headline">Jesteśmy po to<br></br>
                         aby ułatwić  <br></br>
                         Ci pracę
                     </h1>
-
+                    <Link to={'/oferta'}>
+                        <button className='cta'>wypożycz</button>
+                    </Link>
                 </div>
                 <a href="#welcome" className="scroll center-content scrollto">
                     <div className="chevron"></div>
