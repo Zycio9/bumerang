@@ -7,7 +7,7 @@ import { styled, useTheme } from '@mui/material/styles';
 import useWindowPosition from '../hooks/useWindwPosition';
 
 
-const CategoryTile = ({ right, category }) => {
+const CategoryTile = ({ bannerTextSide, category }) => {
     const tileObject = useRef()
     const checked = useWindowPosition(tileObject);
 
@@ -46,7 +46,7 @@ const CategoryTile = ({ right, category }) => {
             width: '100%',
             height: '100%',
             top: 0, left: 0,
-            background: `linear-gradient(transparent, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8))`,
+            background: `linear-gradient(transparent, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6))`,
         }
     }));
 
@@ -59,7 +59,7 @@ const CategoryTile = ({ right, category }) => {
                 marginTop: '-400px',
                 height: '400px',
                 width: '100%',
-                background: `linear-gradient(transparent, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8))`,
+                background: `linear-gradient(transparent, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6))`,
             }
         }}>
 
@@ -77,7 +77,7 @@ const CategoryTile = ({ right, category }) => {
                     }}
                 >
                     <StyledCardMedia style={{
-                        ...category.css,
+                        ...category.bannerCSS,
                     }}
                         media="picture"
                         alt="Contemplative Reptile"
@@ -87,7 +87,7 @@ const CategoryTile = ({ right, category }) => {
                     <CardContent
                         style={{
                             marginTop: '20%',
-                            marginLeft: right ? 'auto' : 0,
+                            marginLeft: bannerTextSide === 'right' ? 'auto' : 0,
                             position: "relative",
                             background: 'transparent',
                             cursor: "",
@@ -105,7 +105,7 @@ const CategoryTile = ({ right, category }) => {
                         <Button
                             variant="text"
                             style={{
-                                marginLeft: right ? 'auto' : 0
+                                marginLeft: bannerTextSide === 'right' ? 'auto' : 0
                             }}>
                             Zobacz więcej
                         </Button>

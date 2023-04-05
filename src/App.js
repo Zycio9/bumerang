@@ -1,7 +1,7 @@
 
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Container, Typography, Button } from '@mui/material';
+import { Container } from '@mui/material';
 
 import './App.css';
 

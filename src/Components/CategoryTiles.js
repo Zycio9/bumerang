@@ -13,7 +13,7 @@ const CategoryTiles = () => {
                 <Grid item key={category.id} marginTop={7} >
                     <CategoryTile
                         category={category}
-                        right={category.id % 2 > 0 ? true : false}
+                        bannerTextSide={category.bannerTextSide}
                     />
                 </Grid>
             ))}

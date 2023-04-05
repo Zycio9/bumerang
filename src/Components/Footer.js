@@ -34,10 +34,11 @@ const Footer = () => {
                         style={{ marginTop: '1rem' }}>
                         <Typography variant="body1">Regulamin wypożyczalni</Typography>
                     </Link>
-                    <Link to={`/rodo`}
+                    <a href="/assets/Rodo-Bumerang.pdf"
+                        target="_blank"
                         style={{ marginTop: '1rem' }}>
                         <Typography variant="body1">RODO</Typography>
-                    </Link>
+                    </a>
                 </Grid>
 
 

@@ -162,8 +162,6 @@ const Contact = () => {
             alignItems="center"
             justifyContent='center'>
             <Grid container item xs={6} sx={{ mb: 4 }}>
-                {/* <Grid container item> */}
-
                 <Typography variant="h1" textAlign="center" width={'100%'}>
                     Napisz do nas
                 </Typography>
@@ -201,12 +199,12 @@ const Contact = () => {
                     fullWidth
                     value={formData.message}
                     multiline
-                    rows={4}
+                    rows={6}
+                    maxRows={30}
                     onChange={(e) => updateInput(e, 'message')}
                 />
                 <Grid container item spacing={2} sx={{ my: 2 }}>
                     <Grid item xs={6} >
-
                         <Button
                             style={{ Width: "100%" }}
                             variant="outlined"
@@ -218,7 +216,6 @@ const Contact = () => {
                         </Button>
                     </Grid>
                     <Grid item xs={6}>
-
                         <Button
                             style={{ Width: "100%" }}
                             variant="contained"
@@ -231,11 +228,14 @@ const Contact = () => {
                         </Button>
                     </Grid>
                     {/* </Grid> */}
-                    <Typography variant='body2' color={responseMessage.ok ? "success" : "error"} >{responseMessage.response}</Typography>
+                    <Typography variant='body1'
+                        align={'center'}
+                        color={responseMessage.ok ? "success" : "error"}
+                        sx={{ mb: 5, mt: 5, width: "100%" }}>
+                        {responseMessage.response}
+                    </Typography>
                 </Grid>
             </Grid>
-
-
 
             <Grid container item sx={{ mb: 4 }}>
                 <Typography variant="h2" textAlign="center" width={'100%'} sx={{ mb: 4 }}>

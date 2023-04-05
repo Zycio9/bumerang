@@ -55,8 +55,12 @@ const StyledLisItem = styled(ListItem)(({ theme }) => ({
 }));
 
 const StyledMegaMenu = styled('div')(({ theme }) => ({
+    '& a': {
+        transition: "250ms"
+    },
     '& a:hover': {
         color: theme.palette.primary.main,
+        transition: "250ms"
     }
     // "overflow": "hidden",
     // ".MuiCardContent-root": {
