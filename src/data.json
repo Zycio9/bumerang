@@ -4,11 +4,11 @@
             "title": "Sprzęt budowlany",
             "shortDescription": "Zadbaj o sprawną pracę przy remoncie i wybierz sprzęt budowlany od cenionych producentów. Oferujemy szeroką gamę profesjonalnych urządzeń budowlanych do wielu zastosowań.",
             "description": "Zadbaj o sprawną pracę przy remoncie i wybierz sprzęt budowlany od cenionych producentów. Oferujemy szeroką gamę profesjonalnych urządzeń budowlanych do wielu zastosowań.",
-            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg",
-            "menuImage": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/38/3835602/BOSCH-GSB-550-skos-lewy.jpg",
+            "image": "assets/kategorie/budowlane.webp",
+            "menuImage": "assets/kategorie/budowlane.webp",
             "url": "/oferta/budowlane",
-            "css": {
-                "backgroundPosition": "left 30%",
+            "bannerTextSide": "right",
+            "bannerCSS": {
                 "backgroundSize": "100%"
             }
         },
@@ -17,11 +17,10 @@
             "title": "Narzędzia ogrodnicze",
             "shortDescription": "Utrzymanie zadbanego ogrodu wymaga pracy przez cały rok. Potrzebny jest odpowiedni sprzęt, aby jego pielęgnacja była możliwa. Przejrzyj ofertę dostępnego sprzętu do wypożyczenia.",
             "description": "Utrzymanie zadbanego ogrodu wymaga pracy przez cały rok. Potrzebny jest odpowiedni sprzęt, aby jego pielęgnacja była możliwa. Przejrzyj ofertę dostępnego sprzętu do wypożyczenia.",
-            "image": "assets/trawnik.jpg",
+            "image": "assets/kategorie/ogrodnicze.webp",
             "menuImage": "https://www.rebelelectro.com/userdata/public/assets/PORADNIKI/Narzedzia_ogrodowe/REBEL_Tools_AR_1_1180x664px.jpg",
             "url": "/oferta/ogrodnicze",
-            "css": {
-                "backgroundPosition": "right 5%",
+            "bannerCSS": {
                 "backgroundSize": "cover"
             }
         },
@@ -30,10 +29,11 @@
             "title": "Przyczepy",
             "shortDescription": "W swojej ofercie posiadamy przyczepy jednoosiowe, dwuosiowe, do przewozu motocykli i lawety. ",
             "description": "W swojej ofercie posiadamy przyczepy jednoosiowe, dwuosiowe, do przewozu motocykli i lawety. Do Państwa dyspozycji oferujemy wynajem przyczep o różnych wymiarach, co pozwala na dostosowanie do indywidualnych potrzeb każdego klienta. Dodatkowo do Państwa dyspozycji posiadamy szeroki wybór pasów transportowych.",
-            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
-            "menuImage": "https://a.allegroimg.com/s512/062994/e8b7523a4c4a847246fced494d3a/PLANDEKA-WYSOKA-200X106-TEMA-2010-MARTZ-200-H-800",
+            "image": "assets/kategorie/przyczepy2.webp",
+            "menuImage": "assets/kategorie/przyczepy.jpg",
             "url": "/oferta/przyczepy",
-            "css": {
+            "bannerTextSide": "left",
+            "bannerCSS": {
                 "backgroundSize": "cover"
             }
         },
@@ -41,12 +41,15 @@
             "id": "bagazniki",
             "title": "Bagażniki rowerowe",
             "shortDescription": "Przygotuj się bezpiecznie na wyjazd! W naszej ofercie posiadamy bagażniki rowerowe na hak na 2,3 i 4 rowery. Zapoznaj się z ofertą i postaw na sprzęt wysokiej klasy.",
-            "description": "Przygotuj się bezpiecznie na wyjazd! W naszej ofercie posiadamy bagażniki rowerowe na hak na 2,3 i 4 rowery. Zapoznaj się z ofertą i postaw na sprzęt wysokiej klasy.",
-            "image": "https://prod-api.mediaexpert.pl/api/images/gallery/thumbnails/images/13/1346449/BOSCH-EasyImpact-540-front-skos.jpg",
-            "menuImage": "https://s-trojmiasto.pl/zdj/c/n/9/2039/748x0/2039994-Jeden-z-bagaznikow-wyposazony-fabrycznie-w-13-pinowa-wtyczke.jpg",
+            "description": "Przygotuj się bezpiecznie na wyjazd! W naszej ofercie posiadamy bagażniki rowerowe na hak na 2, 3 i 4 rowery. Zapoznaj się z ofertą i postaw na sprzęt wysokiej klasy.",
+            "image": "assets/kategorie/bagazniki2.jpg",
+            "menuImage": "assets/kategorie/bagazniki.avif",
             "url": "/oferta/bagazniki",
-            "css": {
-                "backgroundSize": "cover"
+            "bannerTextSide": "right",
+            "bannerCSS": {
+                "backgroundSize": "110%",
+                "backgroundPosition": "right 85%"
+
             }
         }
     ],
@@ -1203,14 +1206,14 @@
             "description": "Przyczepa dwuosiowa o DMC 750kg jest bardzo dobrą alternatywą dla przyczep jednoosiowych. Dzięki wzmocnionej konstrukcji i zastosowaniu dwóch osi świetnie sprawdzi się podczas przewożenia cięższych ładunków. Przyczepa dwuosiowa sprawdzi się o wiele lepiej przy rozładunku lub załadunku bez samochodu (np. w garażu, pod blokiem, itp.). Przyczepa nowa (rocznik 2022). Przy wynajmie przyczepy pasy transportowe gratis. Przyczepa wyposażona w pełne oświetlenie LED. Przyczepa dostępna z plandeką lub bez plandeki – wedle życzenia klienta.",
             "category": "przyczepy",
             "widget": "f2a1e64e-bad6-494d-b42f-e60cebfdcf74",
-            "mainImage": "",
+            "mainImage": "/assets/przyczepy/przyczepa_dwuosiowa_3x1.5m/przyczepa_dwuosiowa_3x1.5m_1.jpg",
             "images": [{
-                    "original": "",
-                    "thumbnail": ""
+                    "original": "/assets/przyczepy/przyczepa_dwuosiowa_3x1.5m/przyczepa_dwuosiowa_3x1.5m_1.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_dwuosiowa_3x1.5m/przyczepa_dwuosiowa_3x1.5m_1.jpg"
                 },
                 {
-                    "original": "",
-                    "thumbnail": ""
+                    "original": "/assets/przyczepy/przyczepa_dwuosiowa_3x1.5m/przyczepa_dwuosiowa_3x1.5m_2.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_dwuosiowa_3x1.5m/przyczepa_dwuosiowa_3x1.5m_2.jpg"
                 }
 
             ],
@@ -1247,14 +1250,14 @@
             "description": "Przyczepa jednoosiowa o DMC 750kg idealnie nadaje się do przewożenia lżejszych ładunków (do około 500kg). Przyczepa jest łatwa w prowadzeniu i manewrowaniu. Nasza przyczepa jest wyposażona w resorowane zawieszenie, dzięki czemu ładunek nie podskakuje na wybojach, prowadzi się pewnie i stabilnie. Przyczepa nowa (rocznik 2022). Przy wynajmie przyczepy pasy transportowe gratis. Przyczepa wyposażona w pełne oświetlenie LED. Przyczepa dostępna z plandeką lub bez plandeki – wedle życzenia klienta.",
             "category": "przyczepy",
             "widget": "d5a7b964-0caf-4577-b220-f06dbae3ae3c",
-            "mainImage": "",
+            "mainImage": "/assets/przyczepy/przyczepa_jednosiowa_3x1.5m/przyczepa_jednosiowa_3x1.5m_1.jpg",
             "images": [{
-                    "original": "",
-                    "thumbnail": ""
+                    "original": "/assets/przyczepy/przyczepa_jednosiowa_3x1.5m/przyczepa_jednosiowa_3x1.5m_1.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_jednosiowa_3x1.5m/przyczepa_jednosiowa_3x1.5m_1.jpg"
                 },
                 {
-                    "original": "",
-                    "thumbnail": ""
+                    "original": "/assets/przyczepy/przyczepa_jednosiowa_3x1.5m/przyczepa_jednosiowa_3x1.5m_2.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_jednosiowa_3x1.5m/przyczepa_jednosiowa_3x1.5m_2.jpg"
                 }
 
             ],
@@ -1287,14 +1290,14 @@
             "description": "Przyczepa jednoosiowa o DMC 750kg idealnie nadaje się do przewożenia lżejszych ładunków (do około 500kg). Przyczepa jest łatwa w prowadzeniu i manewrowaniu. Nasza przyczepa jest wyposażona w resorowane zawieszenie, dzięki czemu ładunek nie podskakuje na wybojach, prowadzi się pewnie i stabilnie. Przyczepa nowa (rocznik 2022). Przy wynajmie przyczepy pasy transportowe gratis. Przyczepa wyposażona w pełne oświetlenie LED. Przyczepa dostępna z plandeką lub bez plandeki – wedle życzenia klienta.",
             "category": "przyczepy",
             "widget": "380fcd37-c69d-42e1-80c0-5cbb6caa3cce",
-            "mainImage": "",
+            "mainImage": "/assets/przyczepy/przyczepa_jednosiowa_2.7x1.4m/przyczepa_jednosiowa_2.7x1.4m_1.jpg",
             "images": [{
-                    "original": "",
-                    "thumbnail": ""
+                    "original": "/assets/przyczepy/przyczepa_jednosiowa_2.7x1.4m/przyczepa_jednosiowa_2.7x1.4m_1.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_jednosiowa_2.7x1.4m/przyczepa_jednosiowa_2.7x1.4m_1.jpg"
                 },
                 {
-                    "original": "",
-                    "thumbnail": ""
+                    "original": "/assets/przyczepy/przyczepa_jednosiowa_2.7x1.4m/przyczepa_jednosiowa_2.7x1.4m_2.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_jednosiowa_2.7x1.4m/przyczepa_jednosiowa_2.7x1.4m_2.jpg"
                 }
 
             ],
@@ -1328,14 +1331,26 @@
             "description": "Przyczepa jednoosiowa do przewozu motocykli o DMC 750kg idealnie nadaje się do przewożenia do 3 sztuk motocykli. Przyczepa jest łatwa w prowadzeniu i manewrowaniu. Przyczepa jest wyposażona w rynny i haki dzięki którym motocykl jest pewnie i stabilnie zabezpieczony podczas transportu. Przyczepa posiada również dwa najazdy do bezpiecznego załadunku motocykli na przyczepę. Nasza przyczepa jest wyposażona w resorowane zawieszenie, dzięki czemu ładunek nie podskakuje na wybojach, prowadzi się pewnie i stabilnie. Przyczepa nowa (rocznik 2022). Przy wynajmie przyczepy pasy transportowe gratis. Przyczepa wyposażona w pełne oświetlenie LED.",
             "category": "przyczepy",
             "widget": "4aabbe70-0d70-4fc9-b078-7942ca516a2b",
-            "mainImage": "",
+            "mainImage": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_1.jpg",
             "images": [{
-                    "original": "",
-                    "thumbnail": ""
+                    "original": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_1.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_1.jpg"
                 },
                 {
-                    "original": "",
-                    "thumbnail": ""
+                    "original": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_2.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_2.jpg"
+                }, {
+                    "original": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_3.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_3.jpg"
+                }, {
+                    "original": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_4.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_4.jpg"
+                }, {
+                    "original": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_5.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_5.jpg"
+                }, {
+                    "original": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_6.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_do_przewozu_motocykli/przyczepa_do_przewozu_motocykli_6.jpg"
                 }
 
             ],
@@ -1367,14 +1382,25 @@
             "description": "Przyczepa ciężarowa z plandeką o DMC 2700kg idealnie nadaje się do przewożenia ciężkich ładunków. Wymiary przestrzeni ładunkowej to 5 x 2m, a wysokość załadunkowa to aż 2m. Daje to możliwość przewozu wysokich ładunków. Przyczepa wyposażona jest w najazdy o długości 2.5m, wciągarkę oraz tylne podpory dzięki którym załadunek samochodu jest bezpieczny i bezproblemowy. Wszystkie burty w przyczepie są otwierane. Na dłuższych bokach zastosowano plandekę typu firanka. Przyczepa nowa (rocznik 2022). Przy wynajmie przyczepy pasy transportowe gratis. Przyczepa wyposażona w pełne oświetlenie LED.",
             "category": "przyczepy",
             "widget": "7354d508-f45f-48b9-b130-20bf10227e1c",
-            "mainImage": "",
+            "mainImage": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_1.jpg",
             "images": [{
-                    "original": "",
-                    "thumbnail": ""
-                },
-                {
-                    "original": "",
-                    "thumbnail": ""
+                    "original": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_1.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_1.jpg"
+                }, {
+                    "original": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_2.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_2.jpg"
+                }, {
+                    "original": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_3.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_3.jpg"
+                }, {
+                    "original": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_3.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_3.jpg"
+                }, {
+                    "original": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_4.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_4.jpg"
+                }, {
+                    "original": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_5.jpg",
+                    "thumbnail": "/assets/przyczepy/przyczepa_ciezarowa_5x2m/przyczepa_ciezarowa_5x2m_5.jpg"
                 }
 
             ],
